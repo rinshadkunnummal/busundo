@@ -99,12 +99,7 @@ export default function Hero() {
       .toString()
       .padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
   }, [nextBus, now]);
-  const greeting =
-    now.getHours() < 12
-      ? "Good Morning ☀️"
-      : now.getHours() < 17
-        ? "Good Afternoon 🌤️"
-        : "Good Evening 🌙";
+
   const [userLocation, setUserLocation] = useState<string>("Detecting location...");
 
   useEffect(() => {

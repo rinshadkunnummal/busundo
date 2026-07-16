@@ -1,4 +1,4 @@
-import { Clock3, MapPin, Bus } from "lucide-react";
+import { Clock3, Bus } from "lucide-react";
 import { useEffect, useState } from "react";
 
 import type { Departure } from "../types/departure";

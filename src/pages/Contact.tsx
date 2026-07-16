@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   Bug,
   Clock3,
@@ -54,41 +53,6 @@ const faqs = [
 ];
 
 export default function Contact() {
-  const [result, setResult] = useState("");
-  const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
-
-  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setResult("Sending...");
-
-    if (!accessKey) {
-      setResult("Missing Web3Forms access key");
-      return;
-    }
-
-    const form = event.currentTarget;
-    const formData = new FormData(form);
-    formData.append("access_key", accessKey);
-
-    try {
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formData,
-      });
-
-      const data = await response.json();
-
-      if (data.success) {
-        setResult("Form submitted successfully");
-        form.reset();
-      } else {
-        setResult("Error sending message");
-      }
-    } catch {
-      setResult("Error sending message");
-    }
-  };
-
   return (
     <section className="relative overflow-hidden py-24">
 
@@ -248,10 +212,7 @@ export default function Contact() {
 
           {/* Form */}
 
-          <form
-            onSubmit={onSubmit}
-            className="rounded-3xl border border-emerald-100 bg-white/80 p-8 shadow-xl shadow-emerald-100/30 backdrop-blur lg:col-span-2"
-          >
+          <form className="rounded-3xl border border-emerald-100 bg-white/80 p-8 shadow-xl shadow-emerald-100/30 backdrop-blur lg:col-span-2">
 
             <h2 className="font-sora text-3xl font-bold text-zinc-900">
               Send a Message
@@ -261,49 +222,36 @@ export default function Contact() {
 
               <input
                 type="text"
-                name="name"
                 placeholder="Your Name"
                 className="rounded-2xl border border-zinc-200 px-5 py-4 font-inter outline-none transition focus:border-emerald-500"
-                required
               />
 
               <input
                 type="email"
-                name="email"
                 placeholder="Email Address"
                 className="rounded-2xl border border-zinc-200 px-5 py-4 font-inter outline-none transition focus:border-emerald-500"
-                required
               />
 
             </div>
 
             <input
               type="text"
-              name="subject"
               placeholder="Subject"
               className="mt-6 w-full rounded-2xl border border-zinc-200 px-5 py-4 font-inter outline-none transition focus:border-emerald-500"
-              required
             />
 
             <textarea
               rows={7}
-              name="message"
               placeholder="Tell us how we can help..."
               className="mt-6 w-full rounded-2xl border border-zinc-200 px-5 py-4 font-inter outline-none transition focus:border-emerald-500"
-              required
             />
 
             <button
-              type="submit"
               className="mt-8 inline-flex items-center gap-3 rounded-2xl bg-emerald-600 px-8 py-4 font-sora font-semibold text-white transition hover:bg-emerald-700"
             >
               <Send className="h-5 w-5" />
               Send Message
             </button>
-
-            <p className="mt-4 font-inter text-sm text-zinc-600" aria-live="polite">
-              {result}
-            </p>
 
           </form>
 

@@ -1,0 +1,2697 @@
+[
+  {
+    "departureTime": "6:17",
+    "destination": "Kozhikkode(limited)",
+    "busName": "Malabar"
+  },
+  {
+    "departureTime": "6:40",
+    "destination": "Kozhikkode",
+    "busName": "ATB"
+  },
+  {
+    "departureTime": "6:42",
+    "destination": "Chemmad",
+    "busName": "ജീവിതയാത"
+  },
+  {
+    "departureTime": "6:55",
+    "destination": "Kadappadi",
+    "busName": "ജീവിതയാത"
+  },
+  {
+    "departureTime": "7:00",
+    "destination": "Kozhikkode",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "7:00",
+    "destination": "Kaliyattamukk",
+    "busName": "Rahat"
+  },
+  {
+    "departureTime": "7:12",
+    "destination": "Kozhikkode(limited)",
+    "busName": "Barza"
+  },
+  {
+    "departureTime": "7:15",
+    "destination": "Chemmad",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "7:15",
+    "destination": "Kunnumpuram",
+    "busName": "Friends"
+  },
+  {
+    "departureTime": "7:18",
+    "destination": "Chemmad",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "7:19",
+    "destination": "Kozhikkode",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "7:22",
+    "destination": "Chemmad",
+    "busName": "ചകവർ³ി"
+  },
+  {
+    "departureTime": "7:23",
+    "destination": "Kunnumpuram",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "7:27",
+    "destination": "Chemmad Safa",
+    "busName": "Marva"
+  },
+  {
+    "departureTime": "7:28",
+    "destination": "Mundiyankav",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "7:29",
+    "destination": "Chemmad",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "7:31",
+    "destination": "Chemmad",
+    "busName": "അേറബൻ"
+  },
+  {
+    "departureTime": "7:31",
+    "destination": "Kozhikkode",
+    "busName": "Ervadi"
+  },
+  {
+    "departureTime": "7:32",
+    "destination": "Chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "7:33",
+    "destination": "Kunnumpuram",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "7:34",
+    "destination": "Chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "7:36",
+    "destination": "Chemmad KEY PEE",
+    "busName": "YEM"
+  },
+  {
+    "departureTime": "7:36",
+    "destination": "Vengara",
+    "busName": "Muhabath"
+  },
+  {
+    "departureTime": "7:38",
+    "destination": "Kadappadi",
+    "busName": "Al-Nas"
+  },
+  {
+    "departureTime": "7:39",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "7:41",
+    "destination": "kolathod safa",
+    "busName": "marva"
+  },
+  {
+    "departureTime": "7:43",
+    "destination": "chemmad",
+    "busName": "atlantis"
+  },
+  {
+    "departureTime": "7:43",
+    "destination": "kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "7:45",
+    "destination": "chaliyam",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "7:46",
+    "destination": "kozhikkode",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "7:47",
+    "destination": "chemmad",
+    "busName": "tepees"
+  },
+  {
+    "departureTime": "7:47",
+    "destination": "kunnumpuram",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "7:48",
+    "destination": "koomanna",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "7:48",
+    "destination": "kozhikkode",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "7:50",
+    "destination": "mannattampara",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "7:54",
+    "destination": "chemmad",
+    "busName": "kuthubuzhaman"
+  },
+  {
+    "departureTime": "7:54",
+    "destination": "U.city, Kondotty",
+    "busName": "Marhaba"
+  },
+  {
+    "departureTime": "7:54",
+    "destination": "Kaliyattamukk",
+    "busName": "അേറബൻ"
+  },
+  {
+    "departureTime": "7:55",
+    "destination": "chemmad",
+    "busName": "Nishiya"
+  },
+  {
+    "departureTime": "7:55",
+    "destination": "Kottakkal, chemmad",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "7:57",
+    "destination": "chemmad super",
+    "busName": "shine"
+  },
+  {
+    "departureTime": "7:58",
+    "destination": "chemmad",
+    "busName": "sajna"
+  },
+  {
+    "departureTime": "7:58",
+    "destination": "kunnumpuram super city",
+    "busName": "coach"
+  },
+  {
+    "departureTime": "7:58",
+    "destination": "U.city, chelari",
+    "busName": "Atlantis"
+  },
+  {
+    "departureTime": "7:59",
+    "destination": "chemmad",
+    "busName": "anuraham"
+  },
+  {
+    "departureTime": "8:01",
+    "destination": "chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "8:02",
+    "destination": "chemmad, Mampuran",
+    "busName": "Intimate"
+  },
+  {
+    "departureTime": "8:05",
+    "destination": "Kozhikkode",
+    "busName": "Ervadi"
+  },
+  {
+    "departureTime": "8:06",
+    "destination": "chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "8:09",
+    "destination": "pukayoor, kunnumpuram",
+    "busName": "Kuthubuzzaman"
+  },
+  {
+    "departureTime": "8:10",
+    "destination": "chemmad",
+    "busName": "Sayyara"
+  },
+  {
+    "departureTime": "8:12",
+    "destination": "Kunnumpuram Super",
+    "busName": "shine"
+  },
+  {
+    "departureTime": "8:13",
+    "destination": "Kaliyattamukk",
+    "busName": "Anugraham"
+  },
+  {
+    "departureTime": "8:13",
+    "destination": "U city, chelari",
+    "busName": "Nishiya"
+  },
+  {
+    "departureTime": "8:15",
+    "destination": "Kozhikkode",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "8:16",
+    "destination": "chemmad ജീവിത",
+    "busName": "യാത"
+  },
+  {
+    "departureTime": "8:18",
+    "destination": "chemmad",
+    "busName": "Friends"
+  },
+  {
+    "departureTime": "8:19",
+    "destination": "chemmad, vengara",
+    "busName": "Ronnesca"
+  },
+  {
+    "departureTime": "8:18",
+    "destination": "Kunnathuparambil",
+    "busName": "Galaxy"
+  },
+  {
+    "departureTime": "8:22",
+    "destination": "Kadappadi",
+    "busName": "Mars"
+  },
+  {
+    "departureTime": "8:23",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "8:23",
+    "destination": "chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "8:24",
+    "destination": "Kunnumpuram",
+    "busName": "Sayyara"
+  },
+  {
+    "departureTime": "8:24",
+    "destination": "Ramanattukara Kee Pee",
+    "busName": "yem"
+  },
+  {
+    "departureTime": "8:26",
+    "destination": "chemmad Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "8:26",
+    "destination": "kozhikkode",
+    "busName": "Diyona"
+  },
+  {
+    "departureTime": "8:26",
+    "destination": "kundoor",
+    "busName": "Donesca"
+  },
+  {
+    "departureTime": "8:29",
+    "destination": "vengara",
+    "busName": "chinnu"
+  },
+  {
+    "departureTime": "8:29",
+    "destination": "chemmad",
+    "busName": "Safar"
+  },
+  {
+    "departureTime": "8:33",
+    "destination": "chemmad",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "8:34",
+    "destination": "kunnumpuram",
+    "busName": "friends"
+  },
+  {
+    "departureTime": "8:35",
+    "destination": "chemmad",
+    "busName": "golden"
+  },
+  {
+    "departureTime": "8:36",
+    "destination": "chemmad",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "8:37",
+    "destination": "kumanna",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "8:38",
+    "destination": "kozhikkode",
+    "busName": "muhabath"
+  },
+  {
+    "departureTime": "8:38",
+    "destination": "Malappuram",
+    "busName": "ninustar"
+  },
+  {
+    "departureTime": "8:39",
+    "destination": "areakode",
+    "busName": "sajna"
+  },
+  {
+    "departureTime": "8:39",
+    "destination": "kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "8:43",
+    "destination": "kadappadi jeevitha",
+    "busName": "yaathra"
+  },
+  {
+    "departureTime": "8:43",
+    "destination": "parappanangadi",
+    "busName": "excel"
+  },
+  {
+    "departureTime": "8:44",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "8:44",
+    "destination": "chemmad",
+    "busName": "thavakkal"
+  },
+  {
+    "departureTime": "8:47",
+    "destination": "kottakadavu",
+    "busName": "samrt"
+  },
+  {
+    "departureTime": "8:47",
+    "destination": "kunnumpuram",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "8:47",
+    "destination": "parappanangadi",
+    "busName": "anugraham"
+  },
+  {
+    "departureTime": "8:47",
+    "destination": "kozhikkode",
+    "busName": "golden"
+  },
+  {
+    "departureTime": "8:47",
+    "destination": "chemmad",
+    "busName": "bismilla"
+  },
+  {
+    "departureTime": "8:48",
+    "destination": "chemmad",
+    "busName": "golden"
+  },
+  {
+    "departureTime": "8:49",
+    "destination": "chemmad safa",
+    "busName": "marva"
+  },
+  {
+    "departureTime": "8:53",
+    "destination": "kaliyattamukk",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "8:53",
+    "destination": "chemmad",
+    "busName": "contessa"
+  },
+  {
+    "departureTime": "8:54",
+    "destination": "chemmad",
+    "busName": "Malabar"
+  },
+  {
+    "departureTime": "8:55",
+    "destination": "Kondotty Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "8:55",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "8:57",
+    "destination": "kunnumpuram",
+    "busName": "safar"
+  },
+  {
+    "departureTime": "8:58",
+    "destination": "kozhikkode hill",
+    "busName": "palace"
+  },
+  {
+    "departureTime": "8:58",
+    "destination": "chemmad",
+    "busName": "chakravarthy"
+  },
+  {
+    "departureTime": "9:01",
+    "destination": "chemmad",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "9:02",
+    "destination": "kottakadavu",
+    "busName": "bismilla"
+  },
+  {
+    "departureTime": "9:02",
+    "destination": "kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "9:05",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "9:07",
+    "destination": "kozhikkode",
+    "busName": "Malabar"
+  },
+  {
+    "departureTime": "9:07",
+    "destination": "kottakkal Al",
+    "busName": "nas"
+  },
+  {
+    "departureTime": "9:07",
+    "destination": "kunnumpuram",
+    "busName": "golden"
+  },
+  {
+    "departureTime": "9:08",
+    "destination": "vengara",
+    "busName": "atb"
+  },
+  {
+    "departureTime": "9:10",
+    "destination": "chemmad super city",
+    "busName": "coach"
+  },
+  {
+    "departureTime": "9:12",
+    "destination": "thirur Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "9:14",
+    "destination": "kottakadavu",
+    "busName": "contessa"
+  },
+  {
+    "departureTime": "9:16",
+    "destination": "Kondotty",
+    "busName": "thavakkal"
+  },
+  {
+    "departureTime": "9:17",
+    "destination": "chemmad",
+    "busName": "chocolate"
+  },
+  {
+    "departureTime": "9:20",
+    "destination": "kunnumpuram",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "9:20",
+    "destination": "vengara",
+    "busName": "ninustar"
+  },
+  {
+    "departureTime": "9:20",
+    "destination": "chemmad super",
+    "busName": "choice"
+  },
+  {
+    "departureTime": "9:20",
+    "destination": "",
+    "busName": "kaliyattamukk"
+  },
+  {
+    "departureTime": "9:21",
+    "destination": "kolathode safa",
+    "busName": "marva"
+  },
+  {
+    "departureTime": "9:24",
+    "destination": "koomanna",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "9:24",
+    "destination": "kozhikkode",
+    "busName": "ronnesca"
+  },
+  {
+    "departureTime": "9:26",
+    "destination": "chemmad",
+    "busName": "kuthubzzaman"
+  },
+  {
+    "departureTime": "9:27",
+    "destination": "chemmad",
+    "busName": "alameen"
+  },
+  {
+    "departureTime": "9:28",
+    "destination": "kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "9:32",
+    "destination": "kunnumpuram",
+    "busName": "super"
+  },
+  {
+    "departureTime": "9:34",
+    "destination": "chemmad",
+    "busName": "arabian"
+  },
+  {
+    "departureTime": "9:34",
+    "destination": "chemmad",
+    "busName": "Bhai"
+  },
+  {
+    "departureTime": "9:35",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "9:37",
+    "destination": "Kondotty",
+    "busName": "chocolate"
+  },
+  {
+    "departureTime": "9:38",
+    "destination": "kunnathpparamb",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "9:41",
+    "destination": "chemmad",
+    "busName": "marhaba"
+  },
+  {
+    "departureTime": "9:42",
+    "destination": "mannattampara",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "9:43",
+    "destination": "chemmad",
+    "busName": "puttakkattu"
+  },
+  {
+    "departureTime": "9:44",
+    "destination": "kunnumpuram",
+    "busName": "sayyara"
+  },
+  {
+    "departureTime": "9:44",
+    "destination": "calicut",
+    "busName": "ronesca"
+  },
+  {
+    "departureTime": "9:44",
+    "destination": "chemmad",
+    "busName": "barsa"
+  },
+  {
+    "departureTime": "9:45",
+    "destination": "kondotti",
+    "busName": "al-ameen"
+  },
+  {
+    "departureTime": "9:48",
+    "destination": "chemmad",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "9:53",
+    "destination": "chemmad jeevitha",
+    "busName": "yaathra"
+  },
+  {
+    "departureTime": "9:53",
+    "destination": "chemmad",
+    "busName": "atlantis"
+  },
+  {
+    "departureTime": "9:54",
+    "destination": "kunnumpuram",
+    "busName": "friends"
+  },
+  {
+    "departureTime": "9:54",
+    "destination": "calicut",
+    "busName": "bhai"
+  },
+  {
+    "departureTime": "9:55",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "9:56",
+    "destination": "alinchuvad",
+    "busName": "arabian"
+  },
+  {
+    "departureTime": "9:56",
+    "destination": "kunnumpuram",
+    "busName": "kuthubzzaman"
+  },
+  {
+    "departureTime": "10:00",
+    "destination": "kadappadi",
+    "busName": "puttakkad"
+  },
+  {
+    "departureTime": "10:00",
+    "destination": "cmd",
+    "busName": "ervadi"
+  },
+  {
+    "departureTime": "10:04",
+    "destination": "chemmad",
+    "busName": "safar"
+  },
+  {
+    "departureTime": "10:05",
+    "destination": "kunnumpuram",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "10:06",
+    "destination": "chemmad",
+    "busName": "nishiya"
+  },
+  {
+    "departureTime": "10:07",
+    "destination": "chemmad",
+    "busName": "thoufeeq"
+  },
+  {
+    "departureTime": "10:08",
+    "destination": "Kondotty....(u.city)",
+    "busName": "atlantis"
+  },
+  {
+    "departureTime": "10:09",
+    "destination": "kunnathpparamb Rai",
+    "busName": "mon"
+  },
+  {
+    "departureTime": "10:11",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "10:12",
+    "destination": "koomanna",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "10:14",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "10:15",
+    "destination": "Kondotty /p.peedika",
+    "busName": "marhaba"
+  },
+  {
+    "departureTime": "10:16",
+    "destination": "vengara/chemmad",
+    "busName": "ervadi"
+  },
+  {
+    "departureTime": "10:16",
+    "destination": "kunnumpuram super",
+    "busName": "shine"
+  },
+  {
+    "departureTime": "10:18",
+    "destination": "chemmad",
+    "busName": "goldens"
+  },
+  {
+    "departureTime": "10:19",
+    "destination": "kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "10:20",
+    "destination": "kottakadavu",
+    "busName": "nishiya"
+  },
+  {
+    "departureTime": "10:24",
+    "destination": "kaliyattamukk",
+    "busName": "anugraham"
+  },
+  {
+    "departureTime": "10:25",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "10:28",
+    "destination": "Kondotty",
+    "busName": "thoufeeq"
+  },
+  {
+    "departureTime": "10:28",
+    "destination": "kunnumpuram",
+    "busName": "safar"
+  },
+  {
+    "departureTime": "10:29",
+    "destination": "chemmad",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "10:29",
+    "destination": "calicut",
+    "busName": "ATB"
+  },
+  {
+    "departureTime": "10:30",
+    "destination": "chemmad Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "10:30",
+    "destination": "kunnathpparamb cee",
+    "busName": "pee"
+  },
+  {
+    "departureTime": "10:33",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "10:36",
+    "destination": "chemmad",
+    "busName": "KPM"
+  },
+  {
+    "departureTime": "10:37",
+    "destination": "kadappadi jeevitha",
+    "busName": "yaathra"
+  },
+  {
+    "departureTime": "10:39",
+    "destination": "kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "10:41",
+    "destination": "chemmad Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "10:42",
+    "destination": "chemmad",
+    "busName": "super"
+  },
+  {
+    "departureTime": "10:42",
+    "destination": "kunnumpuram",
+    "busName": "golden"
+  },
+  {
+    "departureTime": "10:43",
+    "destination": "mannattampara",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "10:44",
+    "destination": "calicut",
+    "busName": "ninustar"
+  },
+  {
+    "departureTime": "10:44",
+    "destination": "chemmad",
+    "busName": "arebain"
+  },
+  {
+    "departureTime": "10:48",
+    "destination": "chemmad safa",
+    "busName": "marva"
+  },
+  {
+    "departureTime": "10:49",
+    "destination": "kaliyattamukk",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "10:50",
+    "destination": "cmd - vengara",
+    "busName": "Ervadi"
+  },
+  {
+    "departureTime": "10:51",
+    "destination": "Kunnumpuram",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "10:52",
+    "destination": "kadappadi",
+    "busName": "Al-Nas"
+  },
+  {
+    "departureTime": "10:53",
+    "destination": "Calicut",
+    "busName": "Barza"
+  },
+  {
+    "departureTime": "10:54",
+    "destination": "Kunnumpuram",
+    "busName": "Sayyara"
+  },
+  {
+    "departureTime": "10:57",
+    "destination": "Kottakadavu , U:city",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "10:58",
+    "destination": "Tanur CP",
+    "busName": "Group"
+  },
+  {
+    "departureTime": "10:59",
+    "destination": "Kondotty",
+    "busName": "Al-ameen"
+  },
+  {
+    "departureTime": "11:00",
+    "destination": "Chemmad",
+    "busName": "Chakravarthy"
+  },
+  {
+    "departureTime": "11:03",
+    "destination": "kunnumpuram",
+    "busName": "Super"
+  },
+  {
+    "departureTime": "11:03",
+    "destination": "cmd - vengara",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "11:03",
+    "destination": "Chemmad",
+    "busName": "Friends"
+  },
+  {
+    "departureTime": "11:05",
+    "destination": "Ramanattukara",
+    "busName": "KPM"
+  },
+  {
+    "departureTime": "11:06",
+    "destination": "Chemmad",
+    "busName": "Anugraham"
+  },
+  {
+    "departureTime": "11:07",
+    "destination": "Chemmad",
+    "busName": "Kuthubzzaman"
+  },
+  {
+    "departureTime": "11:08",
+    "destination": "Chemmad",
+    "busName": "Bismillah"
+  },
+  {
+    "departureTime": "11:08",
+    "destination": "Kaliyattamukk",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "11:10",
+    "destination": "Chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "11:10",
+    "destination": "chemmad vengara",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "11:11",
+    "destination": "Kondotty",
+    "busName": "Al-ameen"
+  },
+  {
+    "departureTime": "11:14",
+    "destination": "Kunnumpuram",
+    "busName": "Sayyara"
+  },
+  {
+    "departureTime": "11:14",
+    "destination": "Kottakkal Cee",
+    "busName": "pee"
+  },
+  {
+    "departureTime": "11:18",
+    "destination": "Chemmad Super",
+    "busName": "shine"
+  },
+  {
+    "departureTime": "11:20",
+    "destination": "Kottakadavu , U:city",
+    "busName": "Bismillah"
+  },
+  {
+    "departureTime": "11:22",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "11:23",
+    "destination": "Kunnumpuram",
+    "busName": "Friends"
+  },
+  {
+    "departureTime": "11:24",
+    "destination": "chemmad",
+    "busName": "Puttekkatt"
+  },
+  {
+    "departureTime": "11:26",
+    "destination": "kumanna",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "11:26",
+    "destination": "chemmad Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "11:28",
+    "destination": "calicut",
+    "busName": "ervadi"
+  },
+  {
+    "departureTime": "11:28",
+    "destination": "chemmad",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "11:30",
+    "destination": "chemmad",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "11:32",
+    "destination": "kunnumpuram",
+    "busName": "kuthbuzzaman"
+  },
+  {
+    "departureTime": "11:32",
+    "destination": "Kondotty",
+    "busName": "chakravarthi"
+  },
+  {
+    "departureTime": "11:34",
+    "destination": "kunnumpuram",
+    "busName": "supershine"
+  },
+  {
+    "departureTime": "11:36",
+    "destination": "vengara",
+    "busName": "ninustar"
+  },
+  {
+    "departureTime": "11:37",
+    "destination": "chemmad",
+    "busName": "safar"
+  },
+  {
+    "departureTime": "11:38",
+    "destination": "kaliyattamukk",
+    "busName": "anugraham"
+  },
+  {
+    "departureTime": "11:38",
+    "destination": "kolathode safa",
+    "busName": "marva"
+  },
+  {
+    "departureTime": "11:42",
+    "destination": "vengara hill",
+    "busName": "palace"
+  },
+  {
+    "departureTime": "11:42",
+    "destination": "chemmad jeevitha",
+    "busName": "yaathra"
+  },
+  {
+    "departureTime": "11:42",
+    "destination": "calicut",
+    "busName": "ervadi"
+  },
+  {
+    "departureTime": "11:42",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "11:43",
+    "destination": "Kondotty Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "11:43",
+    "destination": "vengara",
+    "busName": "Malabar"
+  },
+  {
+    "departureTime": "11:47",
+    "destination": "chemmad",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "11:48",
+    "destination": "chemmad",
+    "busName": "Thavakkal"
+  },
+  {
+    "departureTime": "11:49",
+    "destination": "kunnumpuram",
+    "busName": "Safar"
+  },
+  {
+    "departureTime": "11:50",
+    "destination": "chemmad",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "11:50",
+    "destination": "calicut",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "11:52",
+    "destination": "kunnathpparamb",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "11:57",
+    "destination": "chemmad",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "11:59",
+    "destination": "Chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "11:59",
+    "destination": "parappanangadi",
+    "busName": "Sajna"
+  },
+  {
+    "departureTime": "12:01",
+    "destination": "Kadappadi",
+    "busName": "puttekkatt"
+  },
+  {
+    "departureTime": "12:03",
+    "destination": "chemmad",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "12:03",
+    "destination": "Kunnumpuram",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "12:07",
+    "destination": "Kondotty",
+    "busName": "Thavakkal"
+  },
+  {
+    "departureTime": "12:07",
+    "destination": "Kunnumpuram",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "12:08",
+    "destination": "Kaliyattamukk",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "12:09",
+    "destination": "Chemmad Al",
+    "busName": "nas"
+  },
+  {
+    "departureTime": "12:09",
+    "destination": "Chemmad",
+    "busName": "Thoufeeq"
+  },
+  {
+    "departureTime": "12:13",
+    "destination": "calicut",
+    "busName": "Ervadi"
+  },
+  {
+    "departureTime": "12:14",
+    "destination": "chemmad",
+    "busName": "Super"
+  },
+  {
+    "departureTime": "12:15",
+    "destination": "Chemmad",
+    "busName": "Anugraham"
+  },
+  {
+    "departureTime": "12:16",
+    "destination": "Chemmad",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "12:18",
+    "destination": "Kunnumpuram",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "12:19",
+    "destination": "Kunnumpuram",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "12:20",
+    "destination": "Chemmad",
+    "busName": "Atlantis"
+  },
+  {
+    "departureTime": "12:23",
+    "destination": "Kondotty",
+    "busName": "Thoufeeq"
+  },
+  {
+    "departureTime": "12:23",
+    "destination": "Calicut",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "12:24",
+    "destination": "Chemmad",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "12:27",
+    "destination": "Chemmad",
+    "busName": "Muhabath"
+  },
+  {
+    "departureTime": "12:28",
+    "destination": "Chemmad",
+    "busName": "Friends"
+  },
+  {
+    "departureTime": "12:30",
+    "destination": "Calicut",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "12:32",
+    "destination": "Kunnumpuram",
+    "busName": "Super"
+  },
+  {
+    "departureTime": "12:33",
+    "destination": "Chemmad",
+    "busName": "Marhaba"
+  },
+  {
+    "departureTime": "12:37",
+    "destination": "Kadappadi Jeevitha",
+    "busName": "Yathra"
+  },
+  {
+    "departureTime": "12:38",
+    "destination": "Kaliyattamukk",
+    "busName": "Anugraha"
+  },
+  {
+    "departureTime": "12:38",
+    "destination": "Chemmad Super",
+    "busName": "Shine"
+  },
+  {
+    "departureTime": "12:40",
+    "destination": "Chemmad",
+    "busName": "Kuthubzzaman"
+  },
+  {
+    "departureTime": "12:42",
+    "destination": "Kondoty",
+    "busName": "Atlantis"
+  },
+  {
+    "departureTime": "12:42",
+    "destination": "Kunnumpuram",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "12:42",
+    "destination": "Kunnumpuram",
+    "busName": "Friends"
+  },
+  {
+    "departureTime": "12:42",
+    "destination": "Chemmad Al",
+    "busName": "Ameen"
+  },
+  {
+    "departureTime": "12:43",
+    "destination": "Chemmad",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "12:47",
+    "destination": "Chemmad",
+    "busName": "Sayyara"
+  },
+  {
+    "departureTime": "12:49",
+    "destination": "Kunnathpparamb",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "12:50",
+    "destination": "Chemmad Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "12:50",
+    "destination": "Chemmad",
+    "busName": "Ronexa"
+  },
+  {
+    "departureTime": "12:54",
+    "destination": "Kunnumpuram",
+    "busName": "Supershine"
+  },
+  {
+    "departureTime": "12:58",
+    "destination": "Kozhikkode",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "12:58",
+    "destination": "Chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "1:00",
+    "destination": "Chemmad",
+    "busName": "Safar"
+  },
+  {
+    "departureTime": "1:02",
+    "destination": "Vengara",
+    "busName": "Ronnesca"
+  },
+  {
+    "departureTime": "1:04",
+    "destination": "Kondotty Al",
+    "busName": "Ameen"
+  },
+  {
+    "departureTime": "1:04",
+    "destination": "Kozhikkode",
+    "busName": "Muhabath"
+  },
+  {
+    "departureTime": "1:05",
+    "destination": "Kunnumpuram",
+    "busName": "Sayyara"
+  },
+  {
+    "departureTime": "1:05",
+    "destination": "Chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "1:07",
+    "destination": "Vengara",
+    "busName": "Excel"
+  },
+  {
+    "departureTime": "1:08",
+    "destination": "Kaliyattamukk",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "1:09",
+    "destination": "Vengara",
+    "busName": "ATB"
+  },
+  {
+    "departureTime": "1:10",
+    "destination": "Chemmad",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "1:10",
+    "destination": "Parappanangadi",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "1:13",
+    "destination": "Kunnumpuram",
+    "busName": "Kuthubuzzaman"
+  },
+  {
+    "departureTime": "1:15",
+    "destination": "Parappanangadi",
+    "busName": "Anugraham"
+  },
+  {
+    "departureTime": "1:15",
+    "destination": "Kondotty (U.city)",
+    "busName": "Marhaba"
+  },
+  {
+    "departureTime": "1:16",
+    "destination": "Chemmad",
+    "busName": "Bismillah"
+  },
+  {
+    "departureTime": "1:18",
+    "destination": "Kunnumpuram",
+    "busName": "Safar"
+  },
+  {
+    "departureTime": "1:22",
+    "destination": "Chemmad Safa",
+    "busName": "Marva"
+  },
+  {
+    "departureTime": "1:23",
+    "destination": "Koomanna",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "1:24",
+    "destination": "Chemmad",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "1:25",
+    "destination": "Kozhikkode Hill",
+    "busName": "palace"
+  },
+  {
+    "departureTime": "1:27",
+    "destination": "Chemmad",
+    "busName": "Chakravarthi"
+  },
+  {
+    "departureTime": "1:29",
+    "destination": "Areecode",
+    "busName": "Sajna"
+  },
+  {
+    "departureTime": "1:29",
+    "destination": "Chemmad",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "1:31",
+    "destination": "Kunnumpuram",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "1:34",
+    "destination": "Mannattampara",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "1:35",
+    "destination": "Kozhikkode",
+    "busName": "Malabar"
+  },
+  {
+    "departureTime": "1:35",
+    "destination": "Chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "1:36",
+    "destination": "Chemmad",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "1:37",
+    "destination": "Chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "1:39",
+    "destination": "Kunnumpuram",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "1:41",
+    "destination": "Mundiyankav",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "1:42",
+    "destination": "Ninustar",
+    "busName": "Vengara"
+  },
+  {
+    "departureTime": "1:42",
+    "destination": "Golden",
+    "busName": "Kunnumpuram"
+  },
+  {
+    "departureTime": "1:43",
+    "destination": "Chemmad",
+    "busName": "Puttekkatt"
+  },
+  {
+    "departureTime": "1:44",
+    "destination": "Kolathode Safa",
+    "busName": "Marva"
+  },
+  {
+    "departureTime": "1:47",
+    "destination": "Kondotty",
+    "busName": "Chakravarthi"
+  },
+  {
+    "departureTime": "1:47",
+    "destination": "Kaliyattamukk",
+    "busName": "Anugraham"
+  },
+  {
+    "departureTime": "1:49",
+    "destination": "vengara",
+    "busName": "barza"
+  },
+  {
+    "departureTime": "1:50",
+    "destination": "chemmad",
+    "busName": "ARABIA"
+  },
+  {
+    "departureTime": "1:52",
+    "destination": "Koomanna",
+    "busName": "SMART"
+  },
+  {
+    "departureTime": "1:53",
+    "destination": "KUNNUMPURAM",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "1:54",
+    "destination": "Chemmad",
+    "busName": "friends"
+  },
+  {
+    "departureTime": "1:58",
+    "destination": "kottakkadavu",
+    "busName": "Aman"
+  },
+  {
+    "departureTime": "1:59",
+    "destination": "chemmad Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "2:00",
+    "destination": "Kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "2:04",
+    "destination": "kunnathparampu",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "2:04",
+    "destination": "kunnumpuram",
+    "busName": "Super"
+  },
+  {
+    "departureTime": "2:05",
+    "destination": "Chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "2:06",
+    "destination": "kozhikkode",
+    "busName": "Ronesca"
+  },
+  {
+    "departureTime": "2:06",
+    "destination": "Vengara",
+    "busName": "yervadi"
+  },
+  {
+    "departureTime": "2:08",
+    "destination": "chemmad",
+    "busName": "thavakkal"
+  },
+  {
+    "departureTime": "2:09",
+    "destination": "Chemmad Super",
+    "busName": "Shine"
+  },
+  {
+    "departureTime": "2:15",
+    "destination": "Kunnumpuram",
+    "busName": "Friends"
+  },
+  {
+    "departureTime": "2:16",
+    "destination": "kollam china",
+    "busName": "puttakkattu"
+  },
+  {
+    "departureTime": "2:16",
+    "destination": "kozhikkode",
+    "busName": "ninustar"
+  },
+  {
+    "departureTime": "2:18",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "2:20",
+    "destination": "parappanangadi",
+    "busName": "Anugraham"
+  },
+  {
+    "departureTime": "2:20",
+    "destination": "Chemmad",
+    "busName": "Nasco"
+  },
+  {
+    "departureTime": "2:22",
+    "destination": "Kaliyattamukk",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "2:24",
+    "destination": "Chaliyam",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "2:25",
+    "destination": "Chemmad",
+    "busName": "Safar"
+  },
+  {
+    "departureTime": "2:25",
+    "destination": "Vengara",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "2:28",
+    "destination": "kottakkadavu",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "2:29",
+    "destination": "Kunnumpuram Super",
+    "busName": "shine"
+  },
+  {
+    "departureTime": "2:31",
+    "destination": "Chemmad cheevith",
+    "busName": "yathra"
+  },
+  {
+    "departureTime": "2:32",
+    "destination": "Chemmad",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "2:33",
+    "destination": "Kunnumpuram",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "2:35",
+    "destination": "chemmad",
+    "busName": "Kuthubuzzaman"
+  },
+  {
+    "departureTime": "2:35",
+    "destination": "Kozhikkode",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "2:38",
+    "destination": "Chemmad",
+    "busName": "Sayyar"
+  },
+  {
+    "departureTime": "2:39",
+    "destination": "kollam china Al",
+    "busName": "Nas"
+  },
+  {
+    "departureTime": "2:40",
+    "destination": "Chemmad",
+    "busName": "Contasa"
+  },
+  {
+    "departureTime": "2:44",
+    "destination": "kunnumpuram",
+    "busName": "safar"
+  },
+  {
+    "departureTime": "2:46",
+    "destination": "vengara",
+    "busName": "yervadi"
+  },
+  {
+    "departureTime": "2:48",
+    "destination": "Kozhikkode",
+    "busName": "Ronesca"
+  },
+  {
+    "departureTime": "2:48",
+    "destination": "Kondotty Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "2:49",
+    "destination": "Chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "2:51",
+    "destination": "Chemmad",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "2:51",
+    "destination": "Kaliyattamukk",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "2:52",
+    "destination": "Chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "2:53",
+    "destination": "Kunnumpuram",
+    "busName": "Sayyara"
+  },
+  {
+    "departureTime": "2:54",
+    "destination": "Chemmad",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "2:54",
+    "destination": "Kottakkal",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "2:54",
+    "destination": "Kunnumpuram",
+    "busName": "Kuthubzzaman"
+  },
+  {
+    "departureTime": "2:54",
+    "destination": "Chemmad Al",
+    "busName": "Ameen"
+  },
+  {
+    "departureTime": "2:57",
+    "destination": "Chemmad Al",
+    "busName": "Khaleej"
+  },
+  {
+    "departureTime": "2:59",
+    "destination": "Kommanna",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "3:01",
+    "destination": "Kozhikkode",
+    "busName": "Barza"
+  },
+  {
+    "departureTime": "3:02",
+    "destination": "Chemmad",
+    "busName": "emirates"
+  },
+  {
+    "departureTime": "3:04",
+    "destination": "Chemmad",
+    "busName": "safamarva"
+  },
+  {
+    "departureTime": "3:04",
+    "destination": "Kondotty",
+    "busName": "Thavakkal"
+  },
+  {
+    "departureTime": "3:06",
+    "destination": "Kunnumpuram",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "3:08",
+    "destination": "venagra Ninu",
+    "busName": "star"
+  },
+  {
+    "departureTime": "3:08",
+    "destination": "Kozhikode",
+    "busName": "ATB"
+  },
+  {
+    "departureTime": "3:08",
+    "destination": "Kunnumpuram Al",
+    "busName": "Khaleej"
+  },
+  {
+    "departureTime": "3:11",
+    "destination": "Chemmad",
+    "busName": "super"
+  },
+  {
+    "departureTime": "3:12",
+    "destination": "Chemmad",
+    "busName": "Marhaba"
+  },
+  {
+    "departureTime": "3:13",
+    "destination": "Chemmad Ninu",
+    "busName": "star"
+  },
+  {
+    "departureTime": "3:18",
+    "destination": "Kunnumpuram",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "3:18",
+    "destination": "Kolathode Safa",
+    "busName": "marva"
+  },
+  {
+    "departureTime": "3:18",
+    "destination": "Chemmad",
+    "busName": "Intimate"
+  },
+  {
+    "departureTime": "3:21",
+    "destination": "Kadappadi cheevith",
+    "busName": "yathra"
+  },
+  {
+    "departureTime": "3:22",
+    "destination": "Kaliyattamukk",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "3:24",
+    "destination": "Kunnumpuram",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "3:25",
+    "destination": "Kondotty",
+    "busName": "Contasa"
+  },
+  {
+    "departureTime": "3:26",
+    "destination": "Chemmad",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "3:28",
+    "destination": "chemmad",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "3:29",
+    "destination": "calicut",
+    "busName": "ervadi"
+  },
+  {
+    "departureTime": "3:32",
+    "destination": "kunnumpuram",
+    "busName": "super"
+  },
+  {
+    "departureTime": "3:34",
+    "destination": "vengara",
+    "busName": "ervadi"
+  },
+  {
+    "departureTime": "3:37",
+    "destination": "kumanna",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "3:38",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "3:39",
+    "destination": "chemmad super",
+    "busName": "star"
+  },
+  {
+    "departureTime": "3:40",
+    "destination": "kunnumpuram",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "3:40",
+    "destination": "kaliyattamukk",
+    "busName": "anugraham"
+  },
+  {
+    "departureTime": "3:41",
+    "destination": "Kondotty Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "3:41",
+    "destination": "calicut",
+    "busName": "chinnu"
+  },
+  {
+    "departureTime": "3:42",
+    "destination": "chemmad",
+    "busName": "puttekkatt"
+  },
+  {
+    "departureTime": "3:44",
+    "destination": "kunnumpuram",
+    "busName": "friends"
+  },
+  {
+    "departureTime": "3:44",
+    "destination": "chemmad finu",
+    "busName": "mol"
+  },
+  {
+    "departureTime": "3:45",
+    "destination": "manjeri/Malappuram",
+    "busName": "leader"
+  },
+  {
+    "departureTime": "3:47",
+    "destination": "chemmad",
+    "busName": "Dubai"
+  },
+  {
+    "departureTime": "3:50",
+    "destination": "calicut",
+    "busName": "ervadi"
+  },
+  {
+    "departureTime": "3:51",
+    "destination": "kaliyattamukk",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "3:53",
+    "destination": "chemmad",
+    "busName": "safar"
+  },
+  {
+    "departureTime": "3:56",
+    "destination": "chemmad",
+    "busName": "Bismillah"
+  },
+  {
+    "departureTime": "3:56",
+    "destination": "kunnumpuram super",
+    "busName": "shine"
+  },
+  {
+    "departureTime": "3:57",
+    "destination": "vengara",
+    "busName": "ninustar"
+  },
+  {
+    "departureTime": "3:59",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "4:01",
+    "destination": "chemmad Al",
+    "busName": "nas"
+  },
+  {
+    "departureTime": "4:04",
+    "destination": "kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "4:04",
+    "destination": "chemmad",
+    "busName": "sayyara"
+  },
+  {
+    "departureTime": "4:07",
+    "destination": "kaliyattamukk",
+    "busName": "arebain"
+  },
+  {
+    "departureTime": "4:08",
+    "destination": "Kondotty",
+    "busName": "marhaba"
+  },
+  {
+    "departureTime": "4:09",
+    "destination": "kunnumpuram",
+    "busName": "safar"
+  },
+  {
+    "departureTime": "4:09",
+    "destination": "vengara hill",
+    "busName": "palace"
+  },
+  {
+    "departureTime": "4:09",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "4:09",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "4:12",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "4:12",
+    "destination": "parappanangadi",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "4:15",
+    "destination": "chemmad",
+    "busName": "Anugraham"
+  },
+  {
+    "departureTime": "4:15",
+    "destination": "chemmad",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "4:17",
+    "destination": "Kadappadi",
+    "busName": "Puttekkatt"
+  },
+  {
+    "departureTime": "4:19",
+    "destination": "Kottakadavu",
+    "busName": "Bismillah"
+  },
+  {
+    "departureTime": "4:22",
+    "destination": "Vengara",
+    "busName": "Malabar"
+  },
+  {
+    "departureTime": "4:22",
+    "destination": "Kunnumpuram Shine",
+    "busName": "star"
+  },
+  {
+    "departureTime": "4:28",
+    "destination": "chemmad",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "4:28",
+    "destination": "Mannattampara",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "4:28",
+    "destination": "Kottakkal/Parappanangadi",
+    "busName": "Safari"
+  },
+  {
+    "departureTime": "4:30",
+    "destination": "chemmad Jeevitha",
+    "busName": "yaathra"
+  },
+  {
+    "departureTime": "4:30",
+    "destination": "Koomanna",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "4:32",
+    "destination": "Calicut",
+    "busName": "Bhai"
+  },
+  {
+    "departureTime": "4:33",
+    "destination": "Kunnumpuram",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "4:35",
+    "destination": "Kunnumpuram",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "4:36",
+    "destination": "chemmad",
+    "busName": "Kuthubzzaman"
+  },
+  {
+    "departureTime": "4:36",
+    "destination": "Calicut",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "4:37",
+    "destination": "chemmad",
+    "busName": "KPM"
+  },
+  {
+    "departureTime": "4:37",
+    "destination": "Kaliyattamukk",
+    "busName": "Anugraham"
+  },
+  {
+    "departureTime": "4:39",
+    "destination": "chemmad",
+    "busName": "Super"
+  },
+  {
+    "departureTime": "4:45",
+    "destination": "Vengara",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "4:45",
+    "destination": "Chemmad Safa",
+    "busName": "Marva"
+  },
+  {
+    "departureTime": "4:46",
+    "destination": "Kunnumpuram - Kondotty",
+    "busName": "Emirates"
+  },
+  {
+    "departureTime": "4:47",
+    "destination": "Chemmad",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "4:49",
+    "destination": "Chemmad",
+    "busName": "Friends"
+  },
+  {
+    "departureTime": "4:49",
+    "destination": "Chemmad",
+    "busName": "Atlantis"
+  },
+  {
+    "departureTime": "4:50",
+    "destination": "Kadappadi Jeevitha",
+    "busName": "yaathra"
+  },
+  {
+    "departureTime": "4:51",
+    "destination": "Ramanattukara",
+    "busName": "KPM"
+  },
+  {
+    "departureTime": "4:52",
+    "destination": "Chemmad",
+    "busName": "Kukkudoos"
+  },
+  {
+    "departureTime": "4:53",
+    "destination": "Kondotty",
+    "busName": "Nas&Co"
+  },
+  {
+    "departureTime": "4:54",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "4:54",
+    "destination": "kunnumpuram",
+    "busName": "super"
+  },
+  {
+    "departureTime": "4:55",
+    "destination": "calicut",
+    "busName": "Ervadi"
+  },
+  {
+    "departureTime": "4:57",
+    "destination": "chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "4:58",
+    "destination": "Chemmad",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "4:59",
+    "destination": "Parappanangadi",
+    "busName": "Sajna"
+  },
+  {
+    "departureTime": "5:00",
+    "destination": "kunnumpuram",
+    "busName": "Kuthubzzaman"
+  },
+  {
+    "departureTime": "5:05",
+    "destination": "Chemmad Super",
+    "busName": "shine"
+  },
+  {
+    "departureTime": "5:06",
+    "destination": "Kondotty",
+    "busName": "Atlantis"
+  },
+  {
+    "departureTime": "5:06",
+    "destination": "Kaliyattamukk",
+    "busName": "Arabian"
+  },
+  {
+    "departureTime": "5:08",
+    "destination": "Calicut",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "5:08",
+    "destination": "kunnumpuram",
+    "busName": "Friends"
+  },
+  {
+    "departureTime": "5:08",
+    "destination": "Chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "5:11",
+    "destination": "Kondotty Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "5:14",
+    "destination": "kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "5:15",
+    "destination": "chemmad",
+    "busName": "Anugraham"
+  },
+  {
+    "departureTime": "5:16",
+    "destination": "Kolathode Safa",
+    "busName": "marva"
+  },
+  {
+    "departureTime": "5:17",
+    "destination": "Calicut",
+    "busName": "Malabar"
+  },
+  {
+    "departureTime": "5:18",
+    "destination": "koomanna",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "5:18",
+    "destination": "chemmad",
+    "busName": "Safar"
+  },
+  {
+    "departureTime": "5:23",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "5:24",
+    "destination": "kunnumpuram super",
+    "busName": "shine"
+  },
+  {
+    "departureTime": "5:25",
+    "destination": "chemmad Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "5:25",
+    "destination": "vengara",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "5:27",
+    "destination": "kozhikkode Hill",
+    "busName": "palace"
+  },
+  {
+    "departureTime": "5:28",
+    "destination": "Kunnumpuram",
+    "busName": "Royal"
+  },
+  {
+    "departureTime": "5:30",
+    "destination": "",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "5:30",
+    "destination": "chemmad",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "5:31",
+    "destination": "Vengara",
+    "busName": "Barza"
+  },
+  {
+    "departureTime": "5:32",
+    "destination": "chemmad",
+    "busName": "Sayyara"
+  },
+  {
+    "departureTime": "5:34",
+    "destination": "kunnumpuram",
+    "busName": "safar"
+  },
+  {
+    "departureTime": "5:34",
+    "destination": "kadappadi",
+    "busName": "alnas"
+  },
+  {
+    "departureTime": "5:38",
+    "destination": "kaliyattamukk",
+    "busName": "anugraham"
+  },
+  {
+    "departureTime": "5:39",
+    "destination": "chemmad",
+    "busName": "golden"
+  },
+  {
+    "departureTime": "5:42",
+    "destination": "chemmad",
+    "busName": "puttekkatt"
+  },
+  {
+    "departureTime": "5:42",
+    "destination": "Kondotty Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "5:42",
+    "destination": "Kondotty",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "5:45",
+    "destination": "chemmad",
+    "busName": "arabian"
+  },
+  {
+    "departureTime": "5:46",
+    "destination": "kunnathpparamb Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "5:46",
+    "destination": "calicut",
+    "busName": "ninustar"
+  },
+  {
+    "departureTime": "5:45",
+    "destination": "kunnumpuram",
+    "busName": "sayyara"
+  },
+  {
+    "departureTime": "5:48",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "5:50",
+    "destination": "chemmad",
+    "busName": "super"
+  },
+  {
+    "departureTime": "5:51",
+    "destination": "Kondotty",
+    "busName": "contessa"
+  },
+  {
+    "departureTime": "5:57",
+    "destination": "chemmad jeevitha",
+    "busName": "yaathra"
+  },
+  {
+    "departureTime": "6:00",
+    "destination": "kunnumpuram",
+    "busName": "Golden"
+  },
+  {
+    "departureTime": "6:00",
+    "destination": "Koomanna",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "6:01",
+    "destination": "Calicut",
+    "busName": "ninustar"
+  },
+  {
+    "departureTime": "6:05",
+    "destination": "kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "6:05",
+    "destination": "Chemmad",
+    "busName": "friends"
+  },
+  {
+    "departureTime": "6:06",
+    "destination": "kunnumpuram",
+    "busName": "super"
+  },
+  {
+    "departureTime": "6:06",
+    "destination": "Kondotty",
+    "busName": "sajna"
+  },
+  {
+    "departureTime": "6:07",
+    "destination": "chemmad Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "6:08",
+    "destination": "",
+    "busName": "kaliyattamukk"
+  },
+  {
+    "departureTime": "6:09",
+    "destination": "chemmad",
+    "busName": "kuthubzzaman"
+  },
+  {
+    "departureTime": "6:13",
+    "destination": "vengara",
+    "busName": "Atb"
+  },
+  {
+    "departureTime": "6:14",
+    "destination": "parappanangadi",
+    "busName": "Marhaba"
+  },
+  {
+    "departureTime": "6:15",
+    "destination": "chemmad",
+    "busName": "anugraham"
+  },
+  {
+    "departureTime": "6:16",
+    "destination": "kadappadi jeevitha",
+    "busName": "yaathra"
+  },
+  {
+    "departureTime": "6:20",
+    "destination": "chemmad",
+    "busName": "Bismillah"
+  },
+  {
+    "departureTime": "6:20",
+    "destination": "kunnumpuram",
+    "busName": "friends"
+  },
+  {
+    "departureTime": "6:20",
+    "destination": "chemmad",
+    "busName": "golden"
+  },
+  {
+    "departureTime": "6:21",
+    "destination": "chemmad",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "6:25",
+    "destination": "kadappadi",
+    "busName": "puttekkatt"
+  },
+  {
+    "departureTime": "6:26",
+    "destination": "chemmad Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "6:27",
+    "destination": "chemmad",
+    "busName": "safar"
+  },
+  {
+    "departureTime": "6:29",
+    "destination": "vengara",
+    "busName": "ronesca"
+  },
+  {
+    "departureTime": "6:31",
+    "destination": "kadappadi finu",
+    "busName": "mol"
+  },
+  {
+    "departureTime": "6:31",
+    "destination": "Ramanattukara",
+    "busName": "golden"
+  },
+  {
+    "departureTime": "6:32",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "6:35",
+    "destination": "kunnumpuram",
+    "busName": "kukkudoos"
+  },
+  {
+    "departureTime": "6:37",
+    "destination": "chemmad",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "6:37",
+    "destination": "kozhikkode",
+    "busName": "ronnesca"
+  },
+  {
+    "departureTime": "6:38",
+    "destination": "kottakkal Al",
+    "busName": "nas"
+  },
+  {
+    "departureTime": "6:39",
+    "destination": "kaliyattamukk",
+    "busName": "anugraham"
+  },
+  {
+    "departureTime": "6:41",
+    "destination": "chemmad",
+    "busName": "arabian"
+  },
+  {
+    "departureTime": "6:50",
+    "destination": "chelari",
+    "busName": "Bismillah"
+  },
+  {
+    "departureTime": "6:51",
+    "destination": "vengara",
+    "busName": "ervadi"
+  },
+  {
+    "departureTime": "6:51",
+    "destination": "chemmad",
+    "busName": "thavakkal"
+  },
+  {
+    "departureTime": "6:57",
+    "destination": "vengara",
+    "busName": "ervadi"
+  },
+  {
+    "departureTime": "6:57",
+    "destination": "koomanna",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "6:59",
+    "destination": "Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "7:02",
+    "destination": "athanikkal, U city",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "7:05",
+    "destination": "kozhikkode",
+    "busName": "chinnu"
+  },
+  {
+    "departureTime": "7:10",
+    "destination": "kunnumpuram",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "7:15",
+    "destination": "chemmad",
+    "busName": "royal"
+  },
+  {
+    "departureTime": "7:16",
+    "destination": "pukayoor",
+    "busName": "kuthubzzaman"
+  },
+  {
+    "departureTime": "7:23",
+    "destination": "Kondotty",
+    "busName": "thavakkal"
+  },
+  {
+    "departureTime": "7:27",
+    "destination": "chemmad Al",
+    "busName": "ameen"
+  },
+  {
+    "departureTime": "7:27",
+    "destination": "vengara",
+    "busName": "ninustar"
+  },
+  {
+    "departureTime": "7:34",
+    "destination": "kozhikkode",
+    "busName": "ronesca"
+  },
+  {
+    "departureTime": "7:40",
+    "destination": "chemmad",
+    "busName": "smart"
+  },
+  {
+    "departureTime": "7:47",
+    "destination": "Vengara",
+    "busName": "Ninustar"
+  },
+  {
+    "departureTime": "7:47",
+    "destination": "Kozhikkode",
+    "busName": "Smart"
+  },
+  {
+    "departureTime": "7:54",
+    "destination": "Chemmad",
+    "busName": "Ervadi"
+  },
+  {
+    "departureTime": "8:05",
+    "destination": "Chemmad Hill",
+    "busName": "Palace"
+  },
+  {
+    "departureTime": "8:08",
+    "destination": "Kondotty Al",
+    "busName": "Ameen"
+  },
+  {
+    "departureTime": "8:18",
+    "destination": "",
+    "busName": "Chemmad"
+  },
+  {
+    "departureTime": "8:43",
+    "destination": "Chemmad",
+    "busName": "Smart"
+  }
+]

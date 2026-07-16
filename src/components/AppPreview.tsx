@@ -96,14 +96,6 @@ export default function AppPreview() {
 
             </button>
 
-            <button className="inline-flex items-center gap-2 rounded-2xl border border-zinc-200 bg-white px-8 py-4 font-sora font-semibold text-zinc-700 hover:bg-zinc-50">
-
-              <Smartphone className="h-5 w-5"/>
-
-              Install App
-
-            </button>
-
           </div>
 
         </div>

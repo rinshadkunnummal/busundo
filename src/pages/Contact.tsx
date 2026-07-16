@@ -1,93 +1,297 @@
-// src/pages/Contact.tsx
+import {
+  Bug,
+  Clock3,
+  Lightbulb,
+  Mail,
+  MapPinned,
+  MessageCircle,
+  Send,
+} from "lucide-react";
+
+const actions = [
+  {
+    icon: Clock3,
+    title: "Report Wrong Timing",
+    description:
+      "Found an incorrect bus departure time? Let us know so we can fix it.",
+  },
+  {
+    icon: Lightbulb,
+    title: "Suggest a Feature",
+    description:
+      "Have an idea that could make Campus Bus better? We'd love to hear it.",
+  },
+  {
+    icon: Bug,
+    title: "Report a Bug",
+    description:
+      "Something isn't working as expected? Help us improve the experience.",
+  },
+];
+
+const faqs = [
+  {
+    question: "How often are bus timings updated?",
+    answer:
+      "We update the timetable whenever changes are announced. Our goal is to keep the information as accurate as possible.",
+  },
+  {
+    question: "Is this an official college application?",
+    answer:
+      "No. This is a student-built project created to make commuting easier.",
+  },
+  {
+    question: "Can I request a new destination?",
+    answer:
+      "Absolutely. Send us your suggestion and we'll consider adding it in a future update.",
+  },
+  {
+    question: "How can I report incorrect timings?",
+    answer:
+      "Use the form below or contact us through WhatsApp or Email.",
+  },
+];
 
 export default function Contact() {
   return (
-    <section className="mx-auto max-w-3xl py-16">
-      <div className="space-y-4 text-center">
-        <p className="text-sm font-medium uppercase tracking-widest text-zinc-500">
-          Contact
-        </p>
+    <section className="relative overflow-hidden py-24">
 
-        <h1 className="text-4xl font-bold tracking-tight text-zinc-900">
-          Let's Work Together
-        </h1>
+      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-white via-emerald-50/40 to-white" />
 
-        <p className="mx-auto max-w-xl text-zinc-600">
-          Have a project, collaboration, or just want to say hello? Fill out the
-          form below and I'll get back to you as soon as possible.
-        </p>
+      <div className="mx-auto max-w-7xl px-6">
+
+        {/* Hero */}
+
+        <div className="mx-auto max-w-3xl text-center">
+
+          <span className="rounded-full bg-emerald-100 px-4 py-2 font-inter text-sm font-medium text-emerald-700">
+            SUPPORT
+          </span>
+
+          <h1 className="mt-6 font-sora text-5xl font-bold tracking-tight text-zinc-900">
+            Need Help?
+          </h1>
+
+          <p className="mt-6 font-inter text-lg leading-8 text-zinc-600">
+            Whether you've found an incorrect bus timing, discovered a bug,
+            or have an idea for a new feature, we're always happy to hear from you.
+          </p>
+
+        </div>
+
+        {/* Quick Actions */}
+
+        <div className="mt-20 grid gap-6 md:grid-cols-3">
+
+          {actions.map((action) => {
+
+            const Icon = action.icon;
+
+            return (
+
+              <div
+                key={action.title}
+                className="rounded-3xl border border-emerald-100 bg-white/80 p-8 shadow-lg shadow-emerald-100/30 backdrop-blur transition hover:-translate-y-2 hover:border-emerald-300"
+              >
+
+                <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-100">
+
+                  <Icon className="h-7 w-7 text-emerald-600" />
+
+                </div>
+
+                <h3 className="mt-6 font-sora text-2xl font-semibold text-zinc-900">
+                  {action.title}
+                </h3>
+
+                <p className="mt-4 font-inter leading-7 text-zinc-600">
+                  {action.description}
+                </p>
+
+              </div>
+
+            );
+
+          })}
+
+        </div>
+
+        {/* Contact + Form */}
+
+        <div className="mt-24 grid gap-10 lg:grid-cols-3">
+
+          {/* Contact Card */}
+
+          <div className="rounded-3xl border border-emerald-100 bg-white/80 p-8 shadow-xl shadow-emerald-100/30 backdrop-blur">
+
+            <h2 className="font-sora text-3xl font-bold text-zinc-900">
+              Contact
+            </h2>
+
+            <p className="mt-3 font-inter text-zinc-600">
+              Prefer reaching us directly?
+            </p>
+
+            <div className="mt-10 space-y-8">
+
+              <div className="flex gap-4">
+
+                <Mail className="mt-1 h-6 w-6 text-emerald-600" />
+
+                <div>
+
+                  <h4 className="font-sora font-semibold">
+                    Email
+                  </h4>
+
+                  <p className="font-inter text-zinc-600">
+                    rinshadknml@gmail.com
+                  </p>
+
+                </div>
+
+              </div>
+
+              <div className="flex gap-4">
+
+                <MessageCircle className="mt-1 h-6 w-6 text-emerald-600" />
+
+                <div>
+
+                  <h4 className="font-sora font-semibold">
+                    WhatsApp
+                  </h4>
+
+                  <p className="font-inter text-zinc-600">
+                    +91 8590632718
+                  </p>
+
+                </div>
+
+              </div>
+
+              <div className="flex gap-4">
+
+                <Clock3 className="mt-1 h-6 w-6 text-emerald-600" />
+
+                <div>
+
+                  <h4 className="font-sora font-semibold">
+                    Response Time
+                  </h4>
+
+                  <p className="font-inter text-zinc-600">
+                    Usually within 24 hours.
+                  </p>
+
+                </div>
+
+              </div>
+
+              <div className="flex gap-4">
+
+                <MapPinned className="mt-1 h-6 w-6 text-emerald-600" />
+
+                <div>
+
+                  <h4 className="font-sora font-semibold">
+                    Built For
+                  </h4>
+
+                  <p className="font-inter text-zinc-600">
+                    Darul Huda Students
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          {/* Form */}
+
+          <form className="rounded-3xl border border-emerald-100 bg-white/80 p-8 shadow-xl shadow-emerald-100/30 backdrop-blur lg:col-span-2">
+
+            <h2 className="font-sora text-3xl font-bold text-zinc-900">
+              Send a Message
+            </h2>
+
+            <div className="mt-8 grid gap-6 md:grid-cols-2">
+
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="rounded-2xl border border-zinc-200 px-5 py-4 font-inter outline-none transition focus:border-emerald-500"
+              />
+
+              <input
+                type="email"
+                placeholder="Email Address"
+                className="rounded-2xl border border-zinc-200 px-5 py-4 font-inter outline-none transition focus:border-emerald-500"
+              />
+
+            </div>
+
+            <input
+              type="text"
+              placeholder="Subject"
+              className="mt-6 w-full rounded-2xl border border-zinc-200 px-5 py-4 font-inter outline-none transition focus:border-emerald-500"
+            />
+
+            <textarea
+              rows={7}
+              placeholder="Tell us how we can help..."
+              className="mt-6 w-full rounded-2xl border border-zinc-200 px-5 py-4 font-inter outline-none transition focus:border-emerald-500"
+            />
+
+            <button
+              className="mt-8 inline-flex items-center gap-3 rounded-2xl bg-emerald-600 px-8 py-4 font-sora font-semibold text-white transition hover:bg-emerald-700"
+            >
+              <Send className="h-5 w-5" />
+              Send Message
+            </button>
+
+          </form>
+
+        </div>
+
+        {/* FAQ */}
+
+        <div className="mt-24">
+
+          <h2 className="text-center font-sora text-4xl font-bold text-zinc-900">
+            Frequently Asked Questions
+          </h2>
+
+          <div className="mx-auto mt-10 max-w-4xl space-y-5">
+
+            {faqs.map((faq) => (
+
+              <div
+                key={faq.question}
+                className="rounded-2xl border border-emerald-100 bg-white/80 p-6 shadow-sm"
+              >
+
+                <h3 className="font-sora text-xl font-semibold text-zinc-900">
+                  {faq.question}
+                </h3>
+
+                <p className="mt-3 font-inter leading-7 text-zinc-600">
+                  {faq.answer}
+                </p>
+
+              </div>
+
+            ))}
+
+          </div>
+
+        </div>
+
       </div>
 
-      <form className="mt-12 space-y-6 rounded-2xl border border-zinc-200 bg-white p-8 shadow-sm">
-        <div className="grid gap-6 md:grid-cols-2">
-          <div>
-            <label
-              htmlFor="name"
-              className="mb-2 block text-sm font-medium text-zinc-700"
-            >
-              Name
-            </label>
-            <input
-              id="name"
-              type="text"
-              placeholder="John Doe"
-              className="w-full rounded-lg border border-zinc-300 px-4 py-3 outline-none transition focus:border-zinc-900"
-            />
-          </div>
-
-          <div>
-            <label
-              htmlFor="email"
-              className="mb-2 block text-sm font-medium text-zinc-700"
-            >
-              Email
-            </label>
-            <input
-              id="email"
-              type="email"
-              placeholder="john@example.com"
-              className="w-full rounded-lg border border-zinc-300 px-4 py-3 outline-none transition focus:border-zinc-900"
-            />
-          </div>
-        </div>
-
-        <div>
-          <label
-            htmlFor="subject"
-            className="mb-2 block text-sm font-medium text-zinc-700"
-          >
-            Subject
-          </label>
-          <input
-            id="subject"
-            type="text"
-            placeholder="Project Inquiry"
-            className="w-full rounded-lg border border-zinc-300 px-4 py-3 outline-none transition focus:border-zinc-900"
-          />
-        </div>
-
-        <div>
-          <label
-            htmlFor="message"
-            className="mb-2 block text-sm font-medium text-zinc-700"
-          >
-            Message
-          </label>
-          <textarea
-            id="message"
-            rows={6}
-            placeholder="Tell me about your project..."
-            className="w-full rounded-lg border border-zinc-300 px-4 py-3 outline-none transition focus:border-zinc-900"
-          />
-        </div>
-
-        <button
-          type="submit"
-          className="rounded-lg bg-zinc-900 px-6 py-3 font-medium text-white transition hover:bg-zinc-800"
-        >
-          Send Message
-        </button>
-      </form>
     </section>
   );
 }

@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
 import {
-  ArrowRight,
   Bus,
   Clock3,
   Navigation,
@@ -166,56 +165,28 @@ export default function Hero() {
 
 
               {upcomingBuses.map((bus) => (
-
                 <div
                   key={bus.time}
                   className="rounded-2xl border border-zinc-200 p-4 transition hover:border-emerald-400"
                 >
-
-
                   <div className="flex items-center justify-between">
-
-
                     <div className="flex items-center gap-2">
-
                       <Clock3 className="h-4 w-4 text-zinc-400" />
-
                       <span className="font-semibold">
                         {bus.time}
                       </span>
-
                     </div>
-
-
                     <span className="text-sm text-zinc-500">
                       {bus.status}
                     </span>
-
-
                   </div>
-
-
                   <p className="mt-3 text-zinc-700">
                     {bus.destination}
                   </p>
-
-
                 </div>
-
               ))}
-
-
             </div>
-
           </div>
-
-
-
-
-
-
-
-
           {/* Search */}
 
           <div className="rounded-3xl bg-white p-6 shadow-sm">

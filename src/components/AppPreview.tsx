@@ -4,7 +4,6 @@ import {
   CheckCircle2,
   Clock3,
   MapPin,
-  Smartphone,
 } from "lucide-react";
 
 const benefits = [

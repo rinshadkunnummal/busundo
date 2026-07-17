@@ -9,8 +9,8 @@ export default function Footer() {
           to="/"
           className="font-sora text-xl font-bold tracking-tight text-zinc-900"
         >
-          Bus
-          <span className="text-emerald-600">Undo</span>
+          Dh
+          <span className="text-emerald-600">eBus</span>
         </NavLink>
           <p className="font-inter mt-1 text-sm text-zinc-500">
             Building beautiful web experiences.

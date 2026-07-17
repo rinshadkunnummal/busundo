@@ -19,8 +19,8 @@ export default function Navbar() {
             className="font-sora text-xl font-bold tracking-tight text-zinc-900"
           >
 
-            Dhe
-            <span className="text-emerald-600">Bus</span>
+            Dh
+            <span className="text-emerald-600">eBus</span>
           </NavLink></div>
 
         {/* Navigation */}

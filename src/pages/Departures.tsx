@@ -110,7 +110,15 @@ export default function Departures() {
     if (diff <= -60000) return "Departed";
     if (diff <= 60000) return "Now";
 
-    return `${Math.floor(diff / 60000)} min`;
+    const totalMinutes = Math.floor(diff / 60000);
+    const hours = Math.floor(totalMinutes / 60);
+    const minutes = totalMinutes % 60;
+
+    if (hours > 0) {
+      return `${hours}h ${minutes}m`;
+    }
+
+    return `${totalMinutes}m`;
   }
 
   function retry() {

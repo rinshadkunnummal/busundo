@@ -52,21 +52,49 @@ export default function Hero() {
     }
   }
 
-  const nextBus = departures[0];
+  function getScheduledDepartureDate(departureTime: string, baseDate = now) {
+    const [hours, minutes] = departureTime.slice(0, 5).split(":").map(Number);
+
+    const scheduled = new Date(baseDate);
+    scheduled.setHours(hours, minutes, 0, 0);
+
+    return scheduled;
+  }
+
+  const [userLocation, setUserLocation] = useState<string>("Detecting location...");
+
+  useEffect(() => {
+    if (!navigator.geolocation) {
+      setUserLocation("Location unavailable");
+      return;
+    }
+
+    navigator.geolocation.getCurrentPosition(
+      () => {
+        setUserLocation("Hidaya Nagar");
+      },
+      () => {
+        setUserLocation("Location permission denied");
+      }
+    );
+  }, []);
+
+  const nextBus = useMemo(() => {
+    if (departures.length === 0) return undefined;
+
+    for (const departure of departures) {
+      if (getScheduledDepartureDate(departure.departure_time) >= now) {
+        return departure;
+      }
+    }
+
+    return departures[0];
+  }, [departures, now]);
 
   const countdown = useMemo(() => {
     if (!nextBus) return "--:--:--";
 
-    const [hours, minutes] = nextBus.departure_time
-      .slice(0, 5)
-      .split(":")
-      .map(Number);
-
-    const departure = new Date();
-
-    departure.setHours(hours);
-    departure.setMinutes(minutes);
-    departure.setSeconds(0);
+    const departure = getScheduledDepartureDate(nextBus.departure_time);
 
     let diff = departure.getTime() - now.getTime();
 
@@ -85,23 +113,6 @@ export default function Hero() {
       .padStart(2, "0")}:${secs.toString().padStart(2, "0")}`;
   }, [nextBus, now]);
 
-  const [userLocation, setUserLocation] = useState<string>("Detecting location...");
-
-  useEffect(() => {
-    if (!navigator.geolocation) {
-      setUserLocation("Location unavailable");
-      return;
-    }
-
-    navigator.geolocation.getCurrentPosition(
-      () => {
-        setUserLocation("Near your bus stop");
-      },
-      () => {
-        setUserLocation("Location permission denied");
-      }
-    );
-  }, []);
   return (
     <section className=" relative min-h-screen overflow-hidden bg-[#f8faf9] font-inter">
       <div className="pointer-events-none absolute inset-0">
@@ -216,20 +227,10 @@ export default function Hero() {
               sm:text-lg
             "
             >
-
-              Get upcoming bus timings from your stop
-              and plan your journey without guessing.
-
+              Get upcoming bus timings from Hidaya Nagar to your destination in real-time
             </p>
-
-
-
-
-
             {/* Search */}
-
             <div className="max-w-md">
-
               <label
                 className="
                 flex
@@ -243,9 +244,7 @@ export default function Hero() {
                 shadow-sm
               "
               >
-
                 <Search className="ml-3 h-5 w-5 text-emerald-600" />
-
                 <select
                   value={selectedDestination}
                   onChange={(e) => handleSearch(e.target.value)}
@@ -258,38 +257,19 @@ export default function Hero() {
                   outline-none
                 "
                 >
-
                   <option value="">
                     Select destination
                   </option>
-
                   {destinations.map(({ destination }) => (
                     <option key={destination} value={destination}>
                       {destination}
                     </option>
                   ))}
-
                 </select>
-
               </label>
-
-
             </div>
-
-
           </div>
-
-
-
-
-
-
-
-
-
           {/* LIVE DASHBOARD */}
-
-
           <div
             className="
             rounded-[36px]
@@ -301,8 +281,6 @@ export default function Hero() {
             sm:p-8
           "
           >
-
-
             {/* Location */}
 
             <div
@@ -316,7 +294,7 @@ export default function Hero() {
               <div>
 
                 <p className="text-xs text-zinc-400">
-                  Current location
+                  Departure location
                 </p>
 
 
@@ -501,19 +479,11 @@ export default function Hero() {
                             <p className="font-medium">{nextBus.bus_type}</p>
                           </div>
                         ) : null}
-
-                        {nextBus.platform ? (
-                          <div>
-                            <p className="text-xs text-zinc-400">Platform</p>
-                            <p className="font-medium">{nextBus.platform}</p>
-                          </div>
-                        ) : null}
                       </div>
                     ) : null}
                   </div>
                 </>
               ) : (
-
                 <div className="mt-8 text-center">
                   No buses available
                 </div>

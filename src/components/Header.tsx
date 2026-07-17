@@ -15,8 +15,8 @@ export default function Navbar() {
           to="/"
           className="font-sora text-xl font-bold tracking-tight text-zinc-900"
         >
-          Bus
-          <span className="text-emerald-600">Undo</span>
+          Dhe
+          <span className="text-emerald-600">Bus</span>
         </NavLink>
 
         {/* Navigation */}

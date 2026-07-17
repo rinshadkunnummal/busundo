@@ -1,11 +1,34 @@
-import { Bus } from "lucide-react";
-import { useEffect, useState } from "react";
+import {  ArrowUpRight } from "lucide-react";
+import { NavLink } from "react-router-dom";
+import { useEffect, useMemo, useState } from "react";
 
 import type { Departure } from "../types/departure";
 import { getDepartures } from "../services/departure.service";
 
 export default function DepartureBoard() {
   const [departures, setDepartures] = useState<Departure[]>([]);
+  const [now, setNow] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setNow(new Date());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, []);
+
+  function getScheduledDepartureDate(departureTime: string, baseDate = now) {
+    const [hours, minutes] = departureTime.slice(0, 5).split(":").map(Number);
+
+    const scheduled = new Date(baseDate);
+    scheduled.setHours(hours, minutes, 0, 0);
+
+    return scheduled;
+  }
+
+  const upcomingDepartures = useMemo(() => {
+    return departures.filter((departure) => getScheduledDepartureDate(departure.departure_time) >= now);
+  }, [departures, now]);
 
   useEffect(() => {
     getDepartures()
@@ -29,13 +52,21 @@ export default function DepartureBoard() {
             Live bus timings from your stop
           </p>
         </div>
-
-        <Bus className="h-7 w-7 text-zinc-700" />
+        <div className="flex items-center gap-2">
+          <NavLink
+            to="/contact"
+            className="font-inter underline text-sm text-zinc-700"
+          >
+            See Full Departures
+          </NavLink>
+          <ArrowUpRight className="h-3 w-3 text-zinc-700" />
+          {/* <Bus className="h-7 w-7 text-zinc-700" /> */}
+        </div>
       </div>
 
 
       {/* Empty State */}
-      {departures.length === 0 && (
+      {upcomingDepartures.length === 0 && (
         <div className="rounded-2xl border border-zinc-200 bg-zinc-50 p-8 text-center">
           <p className="font-inter text-sm text-zinc-500">
             No departures available
@@ -46,7 +77,7 @@ export default function DepartureBoard() {
 
       {/* Departure List */}
       <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-        {departures.map((bus) => (
+        {upcomingDepartures.map((bus) => (
           <article
             key={bus.id}
             className="

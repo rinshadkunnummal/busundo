@@ -5,6 +5,10 @@ import {
   Clock3,
   MapPin,
 } from "lucide-react";
+import { useEffect, useState } from "react";
+
+import { getDepartures } from "../services/departure.service";
+import type { Departure } from "../types/departure";
 
 const benefits = [
   "Know your next bus instantly",
@@ -13,32 +17,44 @@ const benefits = [
   "Lightweight & fast",
 ];
 
-const departures = [
-  {
-    bus_name: "KSRTC Fast Passenger",
-    destination: "Kozhikode",
-    departure_time: "11:35:00",
-    bus_type: "Fast Passenger",
-    platform: "2",
-    active: true,
-  },
-  {
-    bus_name: "City Express",
-    destination: "Malappuram",
-    departure_time: "11:50:00",
-    bus_type: "Express",
-    platform: "1",
-  },
-  {
-    bus_name: "College Special",
-    destination: "Kottakkal",
-    departure_time: "12:05:00",
-    bus_type: "Special",
-    platform: "4",
-  },
-];
-
 export default function AppPreview() {
+  const [departures, setDepartures] = useState<Departure[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    let isMounted = true;
+
+    async function loadPreviewDepartures() {
+      try {
+        const data = await getDepartures();
+
+        if (!isMounted) return;
+        setDepartures(data.slice(0, 3));
+      } catch (error) {
+        console.error(error);
+
+        if (!isMounted) return;
+        setDepartures([]);
+      } finally {
+        if (isMounted) {
+          setLoading(false);
+        }
+      }
+    }
+
+    loadPreviewDepartures();
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
+  const nextDeparture = departures[0];
+
+  function formatTime(time: string) {
+    return time.slice(0, 5);
+  }
+
   return (
     <section className="relative overflow-hidden py-28">
 
@@ -131,11 +147,13 @@ export default function AppPreview() {
                     </p>
 
                     <h3 className="mt-2 font-sora text-3xl font-bold">
-                      {departures[0].departure_time.slice(0, 5)}
+                      {nextDeparture
+                        ? formatTime(nextDeparture.departure_time)
+                        : "--:--"}
                     </h3>
 
                     <p className="mt-2 font-inter text-sm opacity-80">
-                      {departures[0].bus_name}
+                      {nextDeparture?.bus_name ?? (loading ? "Loading..." : "No buses available")}
                     </p>
 
                   </div>
@@ -149,26 +167,26 @@ export default function AppPreview() {
                   <MapPin className="h-4 w-4"/>
 
                   <span className="font-inter">
-                    {departures[0].destination}
+                    {nextDeparture?.destination ?? "-"}
                   </span>
 
                 </div>
 
                 <div className="mt-4 flex flex-wrap gap-2 text-xs font-inter opacity-80">
-                  <span>{departures[0].bus_type}</span>
-                  <span>Platform {departures[0].platform}</span>
+                  <span>{nextDeparture?.bus_type ?? "Type N/A"}</span>
+                  <span>Platform {nextDeparture?.platform ?? "-"}</span>
                 </div>
 
               </div>
 
               <div className="mt-8 space-y-4">
 
-                {departures.map((bus) => (
+                {departures.map((bus, index) => (
 
                   <div
-                    key={bus.bus_name}
+                    key={bus.id}
                     className={`flex items-center justify-between rounded-2xl border p-4 ${
-                      bus.active
+                      index === 0
                         ? "border-emerald-200 bg-emerald-50"
                         : "border-zinc-200"
                     }`}
@@ -177,7 +195,7 @@ export default function AppPreview() {
                     <div>
 
                       <h4 className="font-sora text-lg font-semibold">
-                        {bus.departure_time.slice(0, 5)}
+                        {formatTime(bus.departure_time)}
                       </h4>
 
                       <p className="font-inter text-zinc-500">
@@ -195,7 +213,7 @@ export default function AppPreview() {
 
                     </div>
 
-                    {bus.active && (
+                    {index === 0 && (
                       <div className="rounded-full bg-emerald-600 px-3 py-1 font-inter text-xs text-white">
                         Next
                       </div>
@@ -204,6 +222,14 @@ export default function AppPreview() {
                   </div>
 
                 ))}
+
+                {!loading && departures.length === 0 && (
+                  <div className="rounded-2xl border border-zinc-200 p-4 text-center">
+                    <p className="font-inter text-sm text-zinc-500">
+                      No departure preview available right now.
+                    </p>
+                  </div>
+                )}
 
               </div>
 

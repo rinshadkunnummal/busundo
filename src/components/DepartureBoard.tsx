@@ -54,7 +54,7 @@ export default function DepartureBoard() {
         </div>
         <div className="flex items-center gap-2">
           <NavLink
-            to="/contact"
+            to="/departures"
             className="font-inter underline text-sm text-zinc-700"
           >
             See Full Departures

@@ -1,27 +1,12 @@
 import { useEffect, useMemo, useState } from "react";
-import {
-  Bus,
-  Clock3,
-  MapPin,
-  Search,
-  ChevronDown,
-} from "lucide-react";
+import { Bus, Clock3, MapPin, Search, } from "lucide-react";
 
-import {
-  getDepartures,
-  getDestinations,
-} from "../services/departure.service";
-
-interface Departure {
-  id: number;
-  bus_name: string;
-  destination: string;
-  departure_time: string;
-}
+import { getDepartures, getDestinations, } from "../services/departure.service";
+import type { Departure, Destination } from "../types/departure";
 
 export default function Hero() {
   const [departures, setDepartures] = useState<Departure[]>([]);
-  const [destinations, setDestinations] = useState<string[]>([]);
+  const [destinations, setDestinations] = useState<Destination[]>([]);
   const [selectedDestination, setSelectedDestination] = useState("");
 
   const [loading, setLoading] = useState(true);
@@ -58,7 +43,7 @@ export default function Hero() {
     setLoading(true);
 
     try {
-      const data = await getDepartures(destination);
+      const data = await getDepartures({ destination });
 
       setDepartures(data);
       setSelectedDestination(destination);
@@ -118,34 +103,9 @@ export default function Hero() {
     );
   }, []);
   return (
-    <section
-      className="
-      relative
-      min-h-screen
-      overflow-hidden
-      bg-[#f8faf9]
-      font-inter
-    "
-    >
-
-      {/* Background */}
-
+    <section className=" relative min-h-screen overflow-hidden bg-[#f8faf9] font-inter">
       <div className="pointer-events-none absolute inset-0">
-
-        <div
-          className="
-          absolute
-          -top-40
-          left-1/2
-          h-[420px]
-          w-[420px]
-          -translate-x-1/2
-          rounded-full
-          bg-emerald-300/20
-          blur-[120px]
-        "
-        />
-
+        <div className=" absolute -top-40 left-1/2 h-[420px] w-[420px] -translate-x-1/2 rounded-full bg-emerald-300/20 blur-[120px]"/>
         <div
           className="
           absolute
@@ -268,69 +228,51 @@ export default function Hero() {
 
             {/* Search */}
 
-            <div
-              className="
-              flex
-              max-w-md
-              items-center
-              rounded-2xl
-              border
-              border-zinc-200
-              bg-white
-              p-2
-              shadow-sm
-            "
-            >
+            <div className="max-w-md">
 
-              <Search
+              <label
                 className="
-                ml-3
-                h-5
-                w-5
-                text-emerald-600
-              "
-              />
-
-
-              <select
-                value={selectedDestination}
-                onChange={(e) => handleSearch(e.target.value)}
-                className="
-                flex-1
-                bg-transparent
-                px-4
-                py-3
-                text-sm
-                outline-none
+                flex
+                items-center
+                gap-3
+                rounded-2xl
+                border
+                border-zinc-200
+                bg-white
+                p-2
+                shadow-sm
               "
               >
 
-                <option value="">
-                  Search destination
-                </option>
+                <Search className="ml-3 h-5 w-5 text-emerald-600" />
 
-                {
-                  destinations.map(item => (
-                    <option
-                      key={item}
-                      value={item}
-                    >
-                      {item}
+                <select
+                  value={selectedDestination}
+                  onChange={(e) => handleSearch(e.target.value)}
+                  className="
+                  flex-1
+                  bg-transparent
+                  px-4
+                  py-3
+                  text-sm
+                  outline-none
+                "
+                >
+
+                  <option value="">
+                    Select destination
+                  </option>
+
+                  {destinations.map(({ destination }) => (
+                    <option key={destination} value={destination}>
+                      {destination}
                     </option>
-                  ))
-                }
+                  ))}
 
-              </select>
+                </select>
 
+              </label>
 
-              <ChevronDown
-                className="
-                mr-3
-                h-4
-                w-4
-                text-zinc-400
-              "
-              />
 
             </div>
 
@@ -538,6 +480,7 @@ export default function Hero() {
                         </p>
                       </div>
                     </div>
+
                     <div className="flex gap-3">
                       <Clock3 className="text-emerald-600" />
                       <div>
@@ -549,6 +492,24 @@ export default function Hero() {
                         </p>
                       </div>
                     </div>
+
+                    {nextBus.bus_type || nextBus.platform ? (
+                      <div className="grid gap-3 sm:grid-cols-2">
+                        {nextBus.bus_type ? (
+                          <div>
+                            <p className="text-xs text-zinc-400">Type</p>
+                            <p className="font-medium">{nextBus.bus_type}</p>
+                          </div>
+                        ) : null}
+
+                        {nextBus.platform ? (
+                          <div>
+                            <p className="text-xs text-zinc-400">Platform</p>
+                            <p className="font-medium">{nextBus.platform}</p>
+                          </div>
+                        ) : null}
+                      </div>
+                    ) : null}
                   </div>
                 </>
               ) : (

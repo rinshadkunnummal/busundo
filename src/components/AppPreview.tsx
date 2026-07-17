@@ -15,17 +15,26 @@ const benefits = [
 
 const departures = [
   {
-    time: "11:35",
+    bus_name: "KSRTC Fast Passenger",
     destination: "Kozhikode",
+    departure_time: "11:35:00",
+    bus_type: "Fast Passenger",
+    platform: "2",
     active: true,
   },
   {
-    time: "11:50",
+    bus_name: "City Express",
     destination: "Malappuram",
+    departure_time: "11:50:00",
+    bus_type: "Express",
+    platform: "1",
   },
   {
-    time: "12:05",
+    bus_name: "College Special",
     destination: "Kottakkal",
+    departure_time: "12:05:00",
+    bus_type: "Special",
+    platform: "4",
   },
 ];
 
@@ -122,8 +131,12 @@ export default function AppPreview() {
                     </p>
 
                     <h3 className="mt-2 font-sora text-3xl font-bold">
-                      11:35
+                      {departures[0].departure_time.slice(0, 5)}
                     </h3>
+
+                    <p className="mt-2 font-inter text-sm opacity-80">
+                      {departures[0].bus_name}
+                    </p>
 
                   </div>
 
@@ -136,9 +149,14 @@ export default function AppPreview() {
                   <MapPin className="h-4 w-4"/>
 
                   <span className="font-inter">
-                    Kozhikode
+                    {departures[0].destination}
                   </span>
 
+                </div>
+
+                <div className="mt-4 flex flex-wrap gap-2 text-xs font-inter opacity-80">
+                  <span>{departures[0].bus_type}</span>
+                  <span>Platform {departures[0].platform}</span>
                 </div>
 
               </div>
@@ -148,7 +166,7 @@ export default function AppPreview() {
                 {departures.map((bus) => (
 
                   <div
-                    key={bus.time}
+                    key={bus.bus_name}
                     className={`flex items-center justify-between rounded-2xl border p-4 ${
                       bus.active
                         ? "border-emerald-200 bg-emerald-50"
@@ -159,12 +177,21 @@ export default function AppPreview() {
                     <div>
 
                       <h4 className="font-sora text-lg font-semibold">
-                        {bus.time}
+                        {bus.departure_time.slice(0, 5)}
                       </h4>
 
                       <p className="font-inter text-zinc-500">
+                        {bus.bus_name}
+                      </p>
+
+                      <p className="font-inter text-sm text-zinc-400">
                         {bus.destination}
                       </p>
+
+                      <div className="mt-1 flex gap-2 text-xs text-zinc-400">
+                        <span>{bus.bus_type}</span>
+                        <span>Platform {bus.platform}</span>
+                      </div>
 
                     </div>
 

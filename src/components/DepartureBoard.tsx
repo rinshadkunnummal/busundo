@@ -67,19 +67,24 @@ export default function DepartureBoard() {
                 "
               >
                 <span className="font-sora text-lg font-semibold">
-                  {bus.departure_time}
+                  {bus.departure_time.slice(0, 5)}
                 </span>
               </div>
 
 
               <div>
                 <h3 className="font-sora text-lg font-semibold text-zinc-900">
-                  {bus.destination}
+                  {bus.bus_name}
                 </h3>
 
                 <p className="mt-1 font-inter text-sm text-zinc-500">
-                  {bus.bus_name}
+                  {bus.destination}
                 </p>
+
+                <div className="mt-2 flex flex-wrap gap-2 text-xs text-zinc-500">
+                  {bus.bus_type ? <span>{bus.bus_type}</span> : null}
+                  {bus.platform ? <span>Platform {bus.platform}</span> : null}
+                </div>
 
               </div>
 

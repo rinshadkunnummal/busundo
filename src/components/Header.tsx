@@ -1,13 +1,7 @@
 import { NavLink } from "react-router-dom";
+import NavList from "./NavList";
 
-const links = [
-  { name: "Home", path: "/" },
-  { name: "Departures", path: "/departures" },
-  { name: "About", path: "/about" },
-  { name: "Contact", path: "/contact" },
-];
-
-export default function Navbar() {
+export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
@@ -18,29 +12,11 @@ export default function Navbar() {
             to="/"
             className="font-sora text-xl font-bold tracking-tight text-zinc-900"
           >
-
-            Dh
+              Dh
             <span className="text-emerald-600">eBus</span>
           </NavLink></div>
-
         {/* Navigation */}
-        <nav className="font-inter hidden items-center gap-8 md:flex">
-          {links.map((link) => (
-            <NavLink
-              key={link.path}
-              to={link.path}
-              className={({ isActive }) =>
-                `text-sm font-medium transition-colors ${isActive
-                  ? "text-zinc-900"
-                  : "text-zinc-500 hover:text-zinc-900"
-                }`
-              }
-            >
-              {link.name}
-            </NavLink>
-          ))}
-        </nav>
-
+        <NavList />
         {/* CTA */}
         <NavLink
           to="/contact"

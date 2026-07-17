@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 const links = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
+  { name: "Departures", path: "/departures" },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -11,13 +12,16 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         {/* Logo */}
-        <NavLink
-          to="/"
-          className="font-sora text-xl font-bold tracking-tight text-zinc-900"
-        >
-          Dhe
-          <span className="text-emerald-600">Bus</span>
-        </NavLink>
+        <div className="flex gap-1">
+          {/* <Bus className="text-emerald-600" /> */}
+          <NavLink
+            to="/"
+            className="font-sora text-xl font-bold tracking-tight text-zinc-900"
+          >
+
+            Dhe
+            <span className="text-emerald-600">Bus</span>
+          </NavLink></div>
 
         {/* Navigation */}
         <nav className="font-inter hidden items-center gap-8 md:flex">
@@ -26,10 +30,9 @@ export default function Navbar() {
               key={link.path}
               to={link.path}
               className={({ isActive }) =>
-                `text-sm font-medium transition-colors ${
-                  isActive
-                    ? "text-zinc-900"
-                    : "text-zinc-500 hover:text-zinc-900"
+                `text-sm font-medium transition-colors ${isActive
+                  ? "text-zinc-900"
+                  : "text-zinc-500 hover:text-zinc-900"
                 }`
               }
             >

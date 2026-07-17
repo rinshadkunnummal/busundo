@@ -7,6 +7,7 @@ import RootLayout from "./layouts/RootLayout";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
+import Departures from "../pages/Departures";
 import NotFound from "../pages/NotFound";
 
 export const router = createBrowserRouter([
@@ -19,10 +20,13 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "departures",
+        element: <Departures />,
       },
       {
         path: "contact",

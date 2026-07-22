@@ -155,7 +155,7 @@ export default function Departures() {
             </h1>
 
             <p className="font-inter mt-4 max-w-2xl text-zinc-600">
-              Search upcoming buses and view live departures from Kuttippuram Bus
+              Search upcoming buses and view live departures from Darul Huda Bus
               Stand.
             </p>
           </div>

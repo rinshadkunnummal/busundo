@@ -119,7 +119,7 @@ export function generatePulseInsight(metrics?: CommunityPulseMetrics): { text: s
 
   if (missedPercentage > 0.4 || (latePercentage > 0.5 && missedPercentage > 0.2)) {
     return {
-      text: "Schedule has changed or bus often cancels. Treat time as approximate.",
+      text: "Had a bad experience before with this bus. Treat time as approximate.",
       color: "bg-red-100 text-red-700",
       status: "bad"
     };
@@ -127,7 +127,7 @@ export function generatePulseInsight(metrics?: CommunityPulseMetrics): { text: s
 
   if (latePercentage > 0.4) {
     return {
-      text: `Usually runs late. Based on ${total_confirmations} reports.`,
+      text: `This bus runs late. Based on ${total_confirmations} reports.`,
       color: "bg-amber-100 text-amber-700",
       status: "warning"
     };
@@ -135,7 +135,7 @@ export function generatePulseInsight(metrics?: CommunityPulseMetrics): { text: s
 
   if (onTimePercentage > 0.8) {
     return {
-      text: `Extremely Reliable. Confirmed by ${total_confirmations} students.`,
+      text: `This bus is extremely reliable. Confirmed by ${total_confirmations} students.`,
       color: "bg-emerald-100 text-emerald-700",
       status: "great"
     };
@@ -143,14 +143,14 @@ export function generatePulseInsight(metrics?: CommunityPulseMetrics): { text: s
 
   if (onTimePercentage > 0.5) {
     return {
-      text: "Usually leaves on time.",
+      text: "This bus leaves on time.",
       color: "bg-emerald-50 text-emerald-600",
       status: "great"
     };
   }
 
   return {
-    text: "Reports conflict. Departure time may have changed.",
+    text: "Reports conflict. This bus may be unreliable.",
     color: "bg-zinc-100 text-zinc-700",
     status: "unknown"
   };

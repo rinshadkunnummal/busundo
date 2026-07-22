@@ -4,10 +4,15 @@ import { useEffect, useMemo, useState } from "react";
 
 import type { Departure } from "../types/departure";
 import { getDepartures } from "../services/departure.service";
+import { getDeparturesPulseMetrics } from "../services/pulse.service";
+import type { CommunityPulseMetrics } from "../types/pulse";
+import CommunityPulseCard from "./CommunityPulseCard";
+import ConfirmationActions from "./ConfirmationActions";
 
 export default function DepartureBoard() {
   const [departures, setDepartures] = useState<Departure[]>([]);
   const [now, setNow] = useState(new Date());
+  const [pulseMetrics, setPulseMetrics] = useState<Record<number, CommunityPulseMetrics>>({});
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -32,7 +37,11 @@ export default function DepartureBoard() {
 
   useEffect(() => {
     getDepartures()
-      .then(setDepartures)
+      .then(async (data) => {
+        setDepartures(data);
+        const metrics = await getDeparturesPulseMetrics(data.map(d => d.id));
+        setPulseMetrics(metrics);
+      })
       .catch((error) => {
         console.error("Failed to load departures:", error);
       });
@@ -133,6 +142,13 @@ export default function DepartureBoard() {
                   {bus.bus_type ?? "-"}
                 </span>
               </div>
+            </div>
+
+            <div className="mt-2 border-t border-zinc-100 pt-4">
+              <div className="mb-4">
+                <CommunityPulseCard metrics={pulseMetrics[bus.id]} />
+              </div>
+              <ConfirmationActions departureId={bus.id} />
             </div>
           </article>
         ))}

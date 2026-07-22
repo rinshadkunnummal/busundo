@@ -14,6 +14,8 @@ import type {
   Departure,
   Destination,
 } from "../types/departure";
+import { getDeparturesPulseMetrics } from "../services/pulse.service";
+import type { CommunityPulseMetrics } from "../types/pulse";
 
 const ALL_DESTINATIONS = "All";
 const SEARCH_DEBOUNCE_MS = 350;
@@ -21,6 +23,7 @@ const SEARCH_DEBOUNCE_MS = 350;
 export default function Departures() {
   const [departures, setDepartures] = useState<Departure[]>([]);
   const [destinations, setDestinations] = useState<Destination[]>([]);
+  const [pulseMetrics, setPulseMetrics] = useState<Record<number, CommunityPulseMetrics>>({});
 
   const [search, setSearch] = useState("");
   const [selectedDestination, setSelectedDestination] = useState(ALL_DESTINATIONS);
@@ -84,6 +87,10 @@ export default function Departures() {
 
       if (signal.aborted) return;
       setDepartures(data);
+      
+      const metrics = await getDeparturesPulseMetrics(data.map(d => d.id));
+      if (signal.aborted) return;
+      setPulseMetrics(metrics);
     } catch (err) {
       if (signal.aborted) return;
       console.error(err);
@@ -292,6 +299,11 @@ export default function Departures() {
                       departure={departure}
                       formattedTime={formatTime(departure.departure_time)}
                       countdown={countdown}
+                      pulseMetrics={pulseMetrics[departure.id]}
+                      onConfirmStatus={() => {
+                        // Optimistically re-fetch or assume updated. 
+                        // For simplicity, we just leave it, or we could trigger a reload.
+                      }}
                     />
                   );
                 })}

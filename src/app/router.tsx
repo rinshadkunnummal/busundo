@@ -8,6 +8,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Departures from "../pages/Departures";
+import Community from "../pages/Community";
 import NotFound from "../pages/NotFound";
 
 export const router = createBrowserRouter([
@@ -27,6 +28,10 @@ export const router = createBrowserRouter([
       {
         path: "departures",
         element: <Departures />,
+      },
+      {
+        path: "community",
+        element: <Community />,
       },
       {
         path: "contact",

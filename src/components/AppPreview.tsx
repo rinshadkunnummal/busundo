@@ -12,8 +12,8 @@ import type { Departure } from "../types/departure";
 
 const benefits = [
   "Know your next bus instantly",
-  "Mobile-first experience",
-  "Quick destination search",
+  "Community-verified reliability",
+  "Crowdsourced bus timings",
   "Lightweight & fast",
 ];
 
@@ -84,9 +84,7 @@ export default function AppPreview() {
           </h2>
 
           <p className="mt-6 max-w-xl font-inter text-lg leading-8 text-zinc-600">
-            Instead of checking the bus stop board every time,
-            simply open the app and know exactly when your bus
-            is leaving.
+            Instead of relying on outdated timetables, join the community to get real-time, verified bus updates straight to your phone.
           </p>
 
           <div className="mt-10 space-y-5">

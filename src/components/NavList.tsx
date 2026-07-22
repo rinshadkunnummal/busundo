@@ -1,17 +1,10 @@
 import { NavLink } from "react-router-dom";
-
-const links = [
-  { name: "Home", path: "/" },
-  { name: "Departures", path: "/departures" },
-  { name: "Community", path: "/community" },
-  { name: "About", path: "/about" },
-  { name: "Contact", path: "/contact" },
-];
+import { links } from "../lib/links";
 
 export default function NavList() {
   return (
-        <nav className="hidden items-center gap-8 md:flex">
-          {links.map((link) => (
+    <nav className="hidden items-center gap-8 md:flex">
+      {links.map((link) => (
             <NavLink
               key={link.path}
               to={link.path}

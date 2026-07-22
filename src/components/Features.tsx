@@ -1,37 +1,5 @@
-import {
-  ArrowRight,
-  Bell,
-  Clock3,
-  Heart,
-  TableProperties,
-} from "lucide-react";
-
-const features = [
-  {
-    icon: Clock3,
-    title: "Next Bus Countdown",
-    description:
-      "See the exact time remaining before your next bus departs.",
-  },
-  {
-    icon: TableProperties,
-    title: "Complete Timetable",
-    description:
-      "Browse today's complete schedule at a glance.",
-  },
-  {
-    icon: Bell,
-    title: "Always Updated",
-    description:
-      "Bus timings stay synchronized with the latest schedule.",
-  },
-  {
-    icon: Heart,
-    title: "Favorite Routes",
-    description:
-      "Save frequently used destinations for instant access.",
-  },
-];
+import { ArrowRight } from "lucide-react";
+import { features } from "../lib/features";
 
 export default function Features() {
   return (

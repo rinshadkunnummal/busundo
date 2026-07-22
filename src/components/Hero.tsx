@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { Bus, Clock3, MapPin, Search, } from "lucide-react";
+import { Bus, Clock3, MapPin, Search } from "lucide-react";
+import { Link } from "react-router-dom";
 
 import { getDepartures, getDestinations, } from "../services/departure.service";
 import type { Departure, Destination } from "../types/departure";
@@ -227,10 +228,10 @@ export default function Hero() {
               sm:text-lg
             "
             >
-              Get upcoming bus timings from Hidaya Nagar to your destination in real-time
+              Get community-powered, real-time bus updates from Hidaya Nagar to your destination.
             </p>
             {/* Search */}
-            <div className="max-w-md">
+            <div className="max-w-md space-y-3">
               <label
                 className="
                 flex
@@ -267,6 +268,13 @@ export default function Hero() {
                   ))}
                 </select>
               </label>
+              
+              <p className="text-sm text-zinc-500 pl-4">
+                Can't find your bus?{" "}
+                <Link to="/contribute" className="font-semibold text-emerald-600 hover:text-emerald-700 hover:underline">
+                  Add it to the board
+                </Link>
+              </p>
             </div>
           </div>
           {/* LIVE DASHBOARD */}

@@ -151,3 +151,74 @@ export async function getBuses() {
     inFlightBuses = undefined;
   }
 }
+
+export interface BusSubmission {
+  bus_name: string;
+  destination: string;
+  departure_time: string;
+  bus_type?: string;
+  submitted_by: string;
+}
+
+export async function submitNewBus(submission: BusSubmission) {
+  const { error } = await supabase
+    .from("bus_submissions")
+    .insert({
+      bus_name: submission.bus_name,
+      destination: submission.destination,
+      departure_time: submission.departure_time,
+      bus_type: submission.bus_type || null,
+      submitted_by: submission.submitted_by,
+      status: 'pending'
+    });
+
+  if (error) {
+    throw error;
+  }
+}
+
+export async function getPendingSubmissions() {
+  const { data, error } = await supabase
+    .from("bus_submissions")
+    .select("*")
+    .eq("status", "pending")
+    .order("created_at", { ascending: false });
+
+  if (error) throw error;
+  return data || [];
+}
+
+export async function approveSubmission(submission: any) {
+  // First insert into the live database table (we assume departure_board is an updatable view or table)
+  const { error: insertError } = await supabase
+    .from("departure_board")
+    .insert({
+      bus_name: submission.bus_name,
+      destination: submission.destination,
+      departure_time: submission.departure_time,
+      bus_type: submission.bus_type || null,
+    });
+
+  if (insertError) {
+    console.error("Failed to insert into live table", insertError);
+    // If it fails, they might need to use the real table name. We'll throw so the UI knows.
+    throw new Error(`Failed to approve: ${insertError.message}. Make sure departure_board is updatable or replace it with your base table name.`);
+  }
+
+  // Then update status to approved
+  const { error: updateError } = await supabase
+    .from("bus_submissions")
+    .update({ status: "approved" })
+    .eq("id", submission.id);
+
+  if (updateError) throw updateError;
+}
+
+export async function rejectSubmission(id: string) {
+  const { error } = await supabase
+    .from("bus_submissions")
+    .update({ status: "rejected" })
+    .eq("id", id);
+
+  if (error) throw error;
+}

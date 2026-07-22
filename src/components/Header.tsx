@@ -12,10 +12,10 @@ export default function Header() {
         <NavList />
         {/* CTA */}
         <NavLink
-          to="/contact"
-          className="font-inter rounded-lg bg-zinc-900 px-4 py-2 text-sm font-medium text-white transition hover:bg-zinc-800"
+          to="/contribute"
+          className="font-inter rounded-lg bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700"
         >
-          Get in Touch
+          Add Bus
         </NavLink>
       </div>
     </header>

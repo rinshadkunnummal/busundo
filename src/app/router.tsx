@@ -9,6 +9,9 @@ import About from "../pages/About";
 import Contact from "../pages/Contact";
 import Departures from "../pages/Departures";
 import Community from "../pages/Community";
+import Contribute from "../pages/Contribute";
+import AdminLogin from "../pages/admin/Login";
+import AdminDashboard from "../pages/admin/Dashboard";
 import NotFound from "../pages/NotFound";
 
 export const router = createBrowserRouter([
@@ -34,8 +37,20 @@ export const router = createBrowserRouter([
         element: <Community />,
       },
       {
+        path: "add",
+        element: <Contribute />,
+      },
+      {
         path: "contact",
         element: <Contact />,
+      },
+      {
+        path: "admin/login",
+        element: <AdminLogin />,
+      },
+      {
+        path: "admin",
+        element: <AdminDashboard />,
       },
     ],
   },
